@@ -1,0 +1,255 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ 
+ 
+//compass-components
+@import "compass/typography/links"
+@import "compass/typography/lists/horizontal-list"
+@import "compass/support"
+@import "compass/css3"
+
+
+// @import "compass/reset"
+@import "variables"
+@import "bootstrap/_mixins"
+@import "bootstrap/_grid"
+@import "bootstrap/_forms"
+@import "bootstrap/_buttons"
+@import "bootstrap/_utilities"
+
+
+// Reset
+@import "bootstrap/_normalize"
+@import "bootstrap/_print"
+@import "bootstrap/_scaffolding"
+
+//fonts
+@import "fonts/_open-sans"
+@import "fonts"
+@import "fontello/fontello.scss"
+@import "fontello/fontello-codes"
+@import "fontello/fontello-ie7.scss"
+@import "fontello/fontello-ie7-codes"
+
+a, a:hover, a:visited
+  text-decoration: none
+
+.line
+  border-bottom: 1px solid #e5e5e5
+
+.line-2
+  border-bottom: 2px solid #e5e5e5                        
+
+.size-16px
+  font-size: 16px
+
+.size-20px
+  font-size: 20px
+
+.size-10px
+  font-size: 10px
+
+.size-0-8
+  font-size: 0.8em
+
+.size-0-9
+  font-size: 0.9em
+
+.size-1-5
+  font-size: 1.5em
+
+.size-1-2
+  font-size: 1.2em  
+
+.size-1-1
+  font-size: 1.1em  
+
+.gray-color
+  color: #939598
+
+/////////////////////////////////////////Шапка
+.header-menu
+  vertical-align: middle
+  background-color: $color-header
+  color: #fff
+  padding: 12px 0px 
+  a, a:hover, a:visited
+    color: #fff
+
+
+.header-menu .col-xs-9
+  margin-left: -10px
+
+
+.zakaz-doma  
+  border-bottom: 1px solid #EDF6EA
+  margin-bottom: 5px
+  a
+    @include border-radius(4px, 4px)
+    border: 1px solid #BFDFB3
+    margin: 8px auto
+    display: block
+    width: 80%
+    color: $color-header
+    padding: 7px 0
+    text-align: center
+    font-weight: bold
+///////////////////////////////////////end 
+
+
+
+
+////////////////////////////////////////body база отдыха
+.section1 a
+  color: #595959
+  &:hover
+    color: $color-header
+
+.section1 
+  .switch
+    margin: 0 -15px
+  .choise
+    padding: 10px 15px
+
+.section1 ul
+  display: inline-block
+  width: 46%
+  font-size: 0.9em
+  padding-left: 10px
+  vertical-align: top
+  li
+    line-height: 1.7em
+
+
+.section1 .focused
+  font-weight: bold
+  border-bottom: 3px solid $color-header
+  a, a:hover, a:visited
+    color: $color-header
+    
+
+.section1
+  .slider
+    margin: 16px -15px
+    img
+      width: 100% 
+  .price
+    margin: 0 auto
+    padding-bottom: 20px
+    margin-bottom: 8px
+    p
+      width: 62%
+      margin: 5px auto
+
+.section1
+  .size-20px
+    margin-bottom: 7px
+
+.block-info
+  color: #4D4D4D
+  .count
+    padding: 13px 0
+
+///////////////////////////////////////////end
+
+
+////////////////////////////////////форма заказа  placeholder($color: $input-color-placeholder)
+.forma
+  position: relative
+  background-color: #E5E5E5
+  margin-top: 30px
+  .btn
+    position: absolute
+    top: 35px
+    width: 90%
+    padding: 10px 12px
+    font-size: 16px
+    background-color: #50B848
+    border-bottom: 1px solid #378b36
+  input
+    border: none
+    font-size: 12px 
+  label
+    font-weight: 400     
+
+
+.question-call
+  text-align: center
+  padding-top: 80px
+  padding-bottom: 30px
+
+/////////////////////////////////////end
+
+//////////////////////////////////////similar house
+.section3
+  background-color: #E5E5E5
+  padding-bottom: 25px
+  .btn
+    @include border-bottom-radius(5px)
+    @include border-top-radius(0px)
+    margin-top: -10px
+    margin-bottom: 10px
+    background-color: #50B848
+    padding: 0px 10px
+    border-bottom: 1px solid #378b36
+  img
+    float: left
+    width: 85px
+    margin: 0 15px 10px 0
+  .house
+    @include border-top-radius(5px)
+    background-color: #fff
+    margin: 10px 0
+    padding: 10px 17px
+
+.section3
+  p
+    color: $color-footer
+  .form-group 
+    .col-xs-5
+      border-right: 2px solid #62BF5B
+      padding: 12px 0px
+    .col-xs-7
+      padding: 12px 0px  
+/////////////////////////////////////////end
+
+///////////////////////////////////////база описание
+
+.section4
+  color: $color-footer
+  padding-top: 30px
+  .color-black
+    color: #1f1f1f
+
+
+///////////////////////////////////////////end
+
+
+
+
+//////////////////////////////////////////footer
+footer
+  color: $color-footer
+  .icon
+    font-size: 1.5em 
+
+footer 
+  a, a:visited
+    color: $color-footer
+
+
+.fontello-icon-twitter, .fontello-icon-facebook
+  margin-right: 15px
+  line-height: 1.8em
+  vertical-align: middle
+
+.fontello-icon-vkontakte
+  line-height: 1.8em
+  vertical-align: middle
+
+//////////////////////////////////////////end
+
+
+
