@@ -16024,7 +16024,7 @@ a, a:hover, a:visited {
   border-bottom: 1px solid #378b36;
 }
 /* line 172, ../sass/screen.sass */
-.forma input {
+.forma input, .forma select {
   border: none;
   font-size: 12px;
 }
@@ -16183,4 +16183,91 @@ footer a, footer a:visited {
 /* line 295, ../sass/screen.sass */
 .btn-xs {
   padding: 3px 12px;
+}
+
+/* line 302, ../sass/screen.sass */
+.mobile-header {
+  height: 100px;
+  background: url("../img/mobile-1.png") no-repeat 0% 0%/cover;
+  text-align: center;
+  color: white;
+}
+/* line 307, ../sass/screen.sass */
+.mobile-header .size-20px {
+  margin-top: 35px;
+}
+
+/* line 310, ../sass/screen.sass */
+.mobile-section-1 {
+  background: #e5e5e5;
+  padding: 25px 15px 15px 15px;
+  font-size: 12px;
+}
+/* line 314, ../sass/screen.sass */
+.mobile-section-1 input, .mobile-section-1 select {
+  border: none;
+  font-size: 12px;
+}
+/* line 317, ../sass/screen.sass */
+.mobile-section-1 label {
+  font-weight: 400;
+}
+
+/* line 320, ../sass/screen.sass */
+.mobile-section-1 .btn {
+  border-bottom: 1px solid #378b36;
+  background-color: #50b848;
+  margin-top: 10px;
+}
+
+/* line 325, ../sass/screen.sass */
+.uslugi {
+  padding: 20px 15px 30px 15px;
+}
+/* line 327, ../sass/screen.sass */
+.uslugi .btn {
+  margin-top: -10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* line 332, ../sass/screen.sass */
+.uslugi .col-xs-12 {
+  height: 195px;
+  text-align: center;
+  color: white;
+}
+
+/* line 337, ../sass/screen.sass */
+.uslugi .row {
+  margin-bottom: 10px;
+}
+
+/* line 340, ../sass/screen.sass */
+.uslugi .transfer {
+  padding: 25px 0px;
+  background: url("../img/mobile-2.png") no-repeat 0% 0%/cover;
+}
+
+/* line 344, ../sass/screen.sass */
+.uslugi .meat {
+  padding: 25px 0px;
+  background: url("../img/mobile-3.png") no-repeat 0% 0%/cover;
+}
+
+/* line 348, ../sass/screen.sass */
+.uslugi .celebrity {
+  padding: 25px 0px;
+  background: url("../img/mobile-4.png") no-repeat 0% 0%/cover;
+}
+
+/* line 352, ../sass/screen.sass */
+.mobile-section-2 {
+  border-top: none;
+}
+/* line 354, ../sass/screen.sass */
+.mobile-section-2 .size-20px {
+  margin-top: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
