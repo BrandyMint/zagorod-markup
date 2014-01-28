@@ -33,90 +33,44 @@
 @import "fontello/fontello-ie7.scss"
 @import "fontello/fontello-ie7-codes"
 
-a, a:hover, a:visited
-  text-decoration: none
-
-.line
-  border-bottom: 1px solid #e5e5e5
-
-.line-2
-  border-bottom: 2px solid #e5e5e5                        
-
-.size-16px
-  font-size: 16px
-
-.size-20px
-  font-size: 20px
-
-.size-10px
-  font-size: 10px
-
-.size-0-8
-  font-size: 0.8em
-
-.size-0-9
-  font-size: 0.9em
-
-.size-1-5
-  font-size: 1.5em
-
-.size-1-2
-  font-size: 1.2em  
-
-.size-1-1
-  font-size: 1.1em  
-
-.gray-color
-  color: #939598
-
-///////index.html
-/////////////////////////////////////////Шапка
-.header-menu
-  vertical-align: middle
-  background-color: $color-header
-  color: #fff
-  padding: 12px 0px 
-  a, a:hover, a:visited
-    color: #fff
+//my stylies
+@import "navbar"
+@import "houses-offer"
+@import "forma-zakaza"
+@import "utilities"
 
 
-.header-menu .col-xs-9
-  margin-left: -10px
 
+
+///////mobile-4.html
+/////////////////////////////////////////
 
 .zakaz-doma  
   border-bottom: 1px solid #EDF6EA
   margin-bottom: 5px
-  a
+  .zakaz
     @include border-radius(4px, 4px)
     border: 1px solid #BFDFB3
     margin: 8px auto
-    display: block
-    width: 80%
     color: $color-header
     padding: 7px 0
     text-align: center
     font-weight: bold
-///////////////////////////////////////end 
-
-
-
 
 ////////////////////////////////////////body база отдыха
-.section1 a
+.mobile4-house-info a
   color: #595959
   &:hover
     color: $color-header
 
-.section1 
+.mobile4-house-info
   .switch
     margin: 0 -15px
   .choise
-    padding: 10px 15px
+    padding: 10px 15px 
 
-.section1 ul
+.mobile4-house-info .spisok
   display: inline-block
-  width: 46%
   font-size: 0.9em
   padding-left: 10px
   vertical-align: top
@@ -124,30 +78,24 @@ a, a:hover, a:visited
     line-height: 1.7em
 
 
-.section1 .focused
+.mobile4-house-info .focused
   font-weight: bold
   border-bottom: 3px solid $color-header
   a, a:hover, a:visited
     color: $color-header
     
 
-.section1
-  .slider
-    margin: 16px -15px
-    img
-      width: 100% 
-  .price
-    margin: 0 auto
-    padding-bottom: 20px
-    margin-bottom: 8px
-    p
-      width: 62%
-      margin: 5px auto
-
-.section1
+.mobile4-house-info
   .size-20px
     margin-bottom: 7px
+  .slider
+    margin: 16px -15px
+    .photos
+      width: 100%
+  .price
+    padding-bottom: 10px  
 
+   
 .block-info
   color: #4D4D4D
   .count
@@ -157,24 +105,12 @@ a, a:hover, a:visited
 
 
 ////////////////////////////////////форма заказа  placeholder($color: $input-color-placeholder)
-.forma
-  position: relative
-  background-color: #E5E5E5
+.mobile4-forma-zakaza .forma-zakaza
   margin-top: 30px
   .btn
-    position: absolute
-    top: 35px
-    width: 90%
     padding: 10px 12px
     font-size: 16px
-    background-color: #50B848
-    border-bottom: 1px solid #378b36
-  input,select
-    border: none
-    font-size: 12px 
-  label
-    font-weight: 400     
-
+    border-bottom: 1px solid $color-border-btn    
 
 .question-call
   text-align: center
@@ -184,74 +120,45 @@ a, a:hover, a:visited
 /////////////////////////////////////end
 
 //////////////////////////////////////similar house
-.section3
-  background-color: #E5E5E5
+.mobile4-houses
+  background-color: $color-forma
   padding-bottom: 25px
-  .btn
-    @include border-bottom-radius(5px)
-    @include border-top-radius(0px)
-    margin-top: -10px
-    margin-bottom: 10px
-    background-color: #50B848
-    padding: 0px 10px
-    border-bottom: 1px solid #378b36
   img
     float: left
     width: 85px
     margin: 0 15px 10px 0
   .house
     @include border-top-radius(5px)
-    background-color: #fff
+    background-color: $color-white
     margin: 10px 0
     padding: 10px 17px
 
-.section3
-  p
-    color: $color-footer
-  .form-group 
-    .col-xs-5
-      border-right: 2px solid #62BF5B
-      padding: 12px 0px
-    .col-xs-7
-      padding: 12px 0px  
+.mobile4-houses .size-10px
+  color: $color-footer 
 /////////////////////////////////////////end
 
 ///////////////////////////////////////база описание
 
-.section4
+.section4-footer
   color: $color-footer
   padding-top: 30px
   .color-black
     color: #1f1f1f
 
-
 ///////////////////////////////////////////end
 
-
-
-
 //////////////////////////////////////////footer
-footer
+.mobile-4-footer
   color: $color-footer
   .icon
-    font-size: 1.5em 
-
-footer 
-  a, a:visited
+    font-size: 1.5em
+    vertical-align: middle
+    line-height: 1.8em
     color: $color-footer
+  .fontello-icon-twitter, .fontello-icon-facebook
+    margin-right: 15px
+/////end mobile-4.html
 
-
-.fontello-icon-twitter, .fontello-icon-facebook
-  margin-right: 15px
-  line-height: 1.8em
-  vertical-align: middle
-
-.fontello-icon-vkontakte
-  line-height: 1.8em
-  vertical-align: middle
-
-//////////////////////////////////////////end
-/////end index.html
 
 ///////mobile-2
 //////////////////////////////////////шапка
@@ -262,31 +169,13 @@ footer
     line-height: 1.3em
   
 ////////////////////////////////////////body
-.mobile-2-section .form-group 
-  .col-xs-5
-    border-right: 2px solid #62BF5B
-    padding: 12px 0px
-  .col-xs-7
-    padding: 12px 0px 
-
 .mobile-2-section
-  background-color: #EDEDED
-  border-top: 1px solid #D5D5D5
-  .house
-    background-color: #fff
-    margin: 20px 0
-    padding: 0 0 10px 0  
+  background-color: $color-forma
+  border-top: 1px solid #D5D5D5 
   .btn-success
-    @include border-bottom-radius(5px)
-    @include border-top-radius(0px)
     margin-top: -20px
-    padding: 0px 10px
   p
     font-weight: bold
-  img
-    @include border-top-radius(5px)  
-    border-top: 1px solid #fff
-    width: 100%
 
 .mobile-2-section .more
   margin: 30px 0
@@ -303,24 +192,17 @@ footer
   height: 100px
   background: url("../img/mobile-1.png") no-repeat 0% 0%/cover
   text-align: center
-  color: #fff
+  color: $color-white
   .size-20px
     margin-top: 35px
+    
 //////////////////////////////////body
-.mobile-section-1
-  background: #E5E5E5
-  padding: 25px 15px 15px 15px
-  font-size: 12px
-  input, select
-    border: none
-    font-size: 12px
-  label
-    font-weight: 400  
 
-.mobile-section-1 .btn
-  border-bottom: 1px solid #378b36
-  background-color: #50B848
-  margin-top: 10px
+.mobile-section-1
+  padding: 25px 15px 15px 15px
+  .btn
+    border-bottom: 1px solid $color-border-btn
+    margin-top: 10px
 
 .uslugi
   padding: 20px 15px 30px 15px
@@ -328,25 +210,23 @@ footer
     margin-top: -10px
     margin-left: 20%
     margin-right: 20%
+  .col-xs-12
+    height: 195px
+    text-align: center
+    color: $color-white
+  .row
+    margin-bottom: 10px  
 
-.uslugi .col-xs-12
-  height: 195px
-  text-align: center
-  color: #fff
-
-.uslugi .row
-  margin-bottom: 10px  
+.uslugi .transfer, .meat, .celebrity 
+  padding: 25px 0px   
 
 .uslugi .transfer
-  padding: 25px 0px
   background: url("../img/mobile-2.png") no-repeat 0% 0%/cover
 
 .uslugi .meat
-  padding: 25px 0px
   background: url("../img/mobile-3.png") no-repeat 0% 0%/cover
 
 .uslugi .celebrity
-  padding: 25px 0px
   background: url("../img/mobile-4.png") no-repeat 0% 0%/cover 
 
 .mobile-section-2 
@@ -357,3 +237,16 @@ footer
     margin-bottom: 30px   
 
 /////////////////////////////////////////////////////////////////////////////end mobile  
+
+
+////////mobile-3
+.mobile-3 
+  .forma-zakaza
+    padding-top: 10px
+    border-top: 1px solid #cecece
+  .filter
+    padding:
+      top: 10px
+      bottom: 10px 
+
+///////////end
