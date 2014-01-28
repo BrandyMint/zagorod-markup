@@ -1,7 +1,15 @@
 .forma-zakaza
   background-color: $color-forma
-  font-size: 12px
-  input, select
-    border: none 
+  font-size: 13px
   label
-    font-weight: 400 
+    font-weight: 400
+    color: $close-color
+	
+.forma-zakaza
+  input[type="text"]
+    @include placeholder($color: $close-color)  //for Safari Chrome Firefox
+    color: $close-color
+    border: none
+  select
+    border: none   
+    color: $close-color

@@ -15890,15 +15890,40 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 /* line 1, ../sass/_forma-zakaza.sass */
 .forma-zakaza {
   background-color: #e5e5e5;
-  font-size: 12px;
+  font-size: 13px;
 }
 /* line 4, ../sass/_forma-zakaza.sass */
-.forma-zakaza input, .forma-zakaza select {
-  border: none;
-}
-/* line 6, ../sass/_forma-zakaza.sass */
 .forma-zakaza label {
   font-weight: 400;
+  color: black;
+}
+
+/* line 9, ../sass/_forma-zakaza.sass */
+.forma-zakaza input[type="text"] {
+  color: black;
+  border: none;
+}
+/* line 57, ../components/bootstrap/_mixins.scss */
+.forma-zakaza input[type="text"]:-moz-placeholder {
+  color: black;
+}
+/* line 58, ../components/bootstrap/_mixins.scss */
+.forma-zakaza input[type="text"]::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+/* line 60, ../components/bootstrap/_mixins.scss */
+.forma-zakaza input[type="text"]:-ms-input-placeholder {
+  color: black;
+}
+/* line 61, ../components/bootstrap/_mixins.scss */
+.forma-zakaza input[type="text"]::-webkit-input-placeholder {
+  color: black;
+}
+/* line 13, ../sass/_forma-zakaza.sass */
+.forma-zakaza select {
+  border: none;
+  color: black;
 }
 
 /* line 1, ../sass/_utilities.sass */

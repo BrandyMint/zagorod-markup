@@ -7,7 +7,8 @@
 			<meta charset="utf-8">
 			 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 			<link  rel="stylesheet" href="stylesheets/screen.css" media="all">
-			 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script src="js/jquery.placeholder.js"></script>
 			
 	</head>
 	
@@ -218,5 +219,21 @@
 			<section>		
 				
 
+			<script>
+			// To test the @id toggling on password inputs in browsers that don’t support changing an input’s @type dynamically (e.g. Firefox 3.6 or IE), uncomment this:
+			// $.fn.hide = function() { return this; }
+			// Then uncomment the last rule in the <style> element (in the <head>).
+			$(function() {
+				// Invoke the plugin
+				$('input, textarea').placeholder();
+				// That’s it, really.
+				// Now display a message if the browser supports placeholder natively
+				var html;
+				
+				if (html) {
+					$('<p class="note">' + html + '</p>').insertAfter('form');
+				}
+			});
+		</script>
 	</body>
 </html>
