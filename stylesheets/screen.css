@@ -16006,12 +16006,39 @@ a, a:hover, a:visited {
   top: 35px;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 1, ../sass/_select-checkbox.sass */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* line 4, ../sass/_select-checkbox.sass */
+input[type="checkbox"] + .checkbox span {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  background: url("../img/checkbox1.png") left -41px no-repeat;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+/* line 13, ../sass/_select-checkbox.sass */
+input[type="checkbox"]:checked + .checkbox span {
+  background: url("../img/checkbox1.png") left top no-repeat;
+  margin-right: 8px;
+}
+
+/* line 17, ../sass/_select-checkbox.sass */
+.checkbox {
+  padding-left: 0px;
+}
+
+/* line 49, ../sass/screen.sass */
 .zakaz-doma {
   border-bottom: 1px solid #edf6ea;
   margin-bottom: 5px;
 }
-/* line 51, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
 .zakaz-doma .zakaz {
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
@@ -16024,102 +16051,102 @@ a, a:hover, a:visited {
   font-weight: bold;
 }
 
-/* line 61, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 .mobile4-house-info a {
   color: #595959;
 }
-/* line 63, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 .mobile4-house-info a:hover {
   color: #50b848;
 }
 
-/* line 67, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 .mobile4-house-info .switch {
   margin: 0 -15px;
 }
-/* line 69, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 .mobile4-house-info .choise {
   padding: 10px 15px;
 }
 
-/* line 72, ../sass/screen.sass */
+/* line 73, ../sass/screen.sass */
 .mobile4-house-info .spisok {
   display: inline-block;
   font-size: 0.9em;
   padding-left: 10px;
   vertical-align: top;
 }
-/* line 77, ../sass/screen.sass */
+/* line 78, ../sass/screen.sass */
 .mobile4-house-info .spisok li {
   line-height: 1.7em;
 }
 
-/* line 81, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 .mobile4-house-info .focused {
   font-weight: bold;
   border-bottom: 3px solid #50b848;
 }
-/* line 84, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 .mobile4-house-info .focused a, .mobile4-house-info .focused a:hover, .mobile4-house-info .focused a:visited {
   color: #50b848;
 }
 
-/* line 89, ../sass/screen.sass */
+/* line 90, ../sass/screen.sass */
 .mobile4-house-info .size-20px {
   margin-bottom: 7px;
 }
-/* line 91, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 .mobile4-house-info .slider {
   margin: 16px -15px;
 }
-/* line 93, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 .mobile4-house-info .slider .photos {
   width: 100%;
 }
-/* line 95, ../sass/screen.sass */
+/* line 96, ../sass/screen.sass */
 .mobile4-house-info .price {
   padding-bottom: 10px;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .block-info {
   color: #4d4d4d;
 }
-/* line 101, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 .block-info .count {
   padding: 13px 0;
 }
 
-/* line 108, ../sass/screen.sass */
+/* line 109, ../sass/screen.sass */
 .mobile4-forma-zakaza .forma-zakaza {
   margin-top: 30px;
 }
-/* line 110, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 .mobile4-forma-zakaza .forma-zakaza .btn {
   padding: 10px 12px;
   font-size: 16px;
   border-bottom: 1px solid #378b36;
 }
 
-/* line 115, ../sass/screen.sass */
+/* line 116, ../sass/screen.sass */
 .question-call {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 30px;
 }
 
-/* line 123, ../sass/screen.sass */
+/* line 124, ../sass/screen.sass */
 .mobile4-houses {
   background-color: #e5e5e5;
   padding-bottom: 25px;
 }
-/* line 126, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 .mobile4-houses img {
   float: left;
   width: 85px;
   margin: 0 15px 10px 0;
 }
-/* line 130, ../sass/screen.sass */
+/* line 131, ../sass/screen.sass */
 .mobile4-houses .house {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -16128,151 +16155,151 @@ a, a:hover, a:visited {
   padding: 10px 17px;
 }
 
-/* line 136, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 .mobile4-houses .size-10px {
   color: #6d6d6d;
 }
 
-/* line 142, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 .section4-footer {
   color: #6d6d6d;
   padding-top: 30px;
 }
-/* line 145, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 .section4-footer .color-black {
   color: #1f1f1f;
 }
 
-/* line 151, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .mobile-4-footer {
   color: #6d6d6d;
 }
-/* line 153, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 .mobile-4-footer .icon {
   font-size: 1.5em;
   vertical-align: middle;
   line-height: 1.8em;
   color: #6d6d6d;
 }
-/* line 158, ../sass/screen.sass */
+/* line 159, ../sass/screen.sass */
 .mobile-4-footer .fontello-icon-twitter, .mobile-4-footer .fontello-icon-facebook {
   margin-right: 15px;
 }
 
-/* line 166, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .all-home {
   padding: 10px 0;
 }
-/* line 168, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
 .all-home .size-20px {
   line-height: 1.3em;
 }
 
-/* line 172, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 .mobile-2-section {
   background-color: #e5e5e5;
   border-top: 1px solid #d5d5d5;
 }
-/* line 175, ../sass/screen.sass */
+/* line 176, ../sass/screen.sass */
 .mobile-2-section .btn-success {
   margin-top: -20px;
 }
-/* line 177, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 .mobile-2-section p {
   font-weight: bold;
 }
 
-/* line 180, ../sass/screen.sass */
+/* line 181, ../sass/screen.sass */
 .mobile-2-section .more {
   margin: 30px 0;
   padding: 12px 0;
 }
 
-/* line 184, ../sass/screen.sass */
+/* line 185, ../sass/screen.sass */
 .btn-xs {
   padding: 3px 12px;
 }
 
-/* line 191, ../sass/screen.sass */
+/* line 192, ../sass/screen.sass */
 .mobile-header {
   height: 100px;
   background: url("../img/mobile-1.png") no-repeat 0% 0%/cover;
   text-align: center;
   color: white;
 }
-/* line 196, ../sass/screen.sass */
+/* line 197, ../sass/screen.sass */
 .mobile-header .size-20px {
   margin-top: 35px;
 }
 
-/* line 201, ../sass/screen.sass */
+/* line 202, ../sass/screen.sass */
 .mobile-section-1 {
   padding: 25px 15px 15px 15px;
 }
-/* line 203, ../sass/screen.sass */
+/* line 204, ../sass/screen.sass */
 .mobile-section-1 .btn {
   border-bottom: 1px solid #378b36;
   margin-top: 10px;
 }
 
-/* line 207, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
 .uslugi {
   padding: 20px 15px 30px 15px;
 }
-/* line 209, ../sass/screen.sass */
+/* line 210, ../sass/screen.sass */
 .uslugi .btn {
   margin-top: -10px;
   margin-left: 20%;
   margin-right: 20%;
 }
-/* line 213, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .uslugi .col-xs-12 {
   height: 195px;
   text-align: center;
   color: white;
 }
-/* line 217, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .uslugi .row {
   margin-bottom: 10px;
 }
 
-/* line 220, ../sass/screen.sass */
+/* line 221, ../sass/screen.sass */
 .uslugi .transfer, .meat, .celebrity {
   padding: 25px 0px;
 }
 
-/* line 223, ../sass/screen.sass */
+/* line 224, ../sass/screen.sass */
 .uslugi .transfer {
   background: url("../img/mobile-2.png") no-repeat 0% 0%/cover;
 }
 
-/* line 226, ../sass/screen.sass */
+/* line 227, ../sass/screen.sass */
 .uslugi .meat {
   background: url("../img/mobile-3.png") no-repeat 0% 0%/cover;
 }
 
-/* line 229, ../sass/screen.sass */
+/* line 230, ../sass/screen.sass */
 .uslugi .celebrity {
   background: url("../img/mobile-4.png") no-repeat 0% 0%/cover;
 }
 
-/* line 232, ../sass/screen.sass */
+/* line 233, ../sass/screen.sass */
 .mobile-section-2 {
   border-top: none;
 }
-/* line 234, ../sass/screen.sass */
+/* line 235, ../sass/screen.sass */
 .mobile-section-2 .size-20px {
   margin-top: 25px;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-/* line 244, ../sass/screen.sass */
+/* line 245, ../sass/screen.sass */
 .mobile-3 .forma-zakaza {
   padding-top: 10px;
   border-top: 1px solid #cecece;
 }
-/* line 247, ../sass/screen.sass */
+/* line 248, ../sass/screen.sass */
 .mobile-3 .filter {
   padding-top: 10px;
   padding-bottom: 10px;

@@ -1,0 +1,18 @@
+input[type="checkbox"]
+  display: none
+
+input[type="checkbox"] + .checkbox span
+  display: inline-block
+  width: 22px
+  height: 22px
+  vertical-align: middle
+  background: url("../img/checkbox1.png") left -41px no-repeat
+  cursor: pointer
+  margin-right: 8px
+
+input[type="checkbox"]:checked + .checkbox span
+  background: url("../img/checkbox1.png") left top no-repeat
+  margin-right: 8px
+
+.checkbox
+  padding-left: 0px  
