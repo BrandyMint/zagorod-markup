@@ -1,6 +1,8 @@
 .forma-zakaza
   background-color: $color-forma
   font-size: 13px
+  input
+    border: none
   label
     font-weight: 400
     color: $close-color
@@ -9,7 +11,6 @@
   input[type="text"]
     @include placeholder($color: $close-color)  //for Safari Chrome Firefox
     color: $close-color
-    border: none
   select
     border: none   
     color: $close-color

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Zagorod
+		</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link  rel="stylesheet" href="stylesheets/screen.css" media="all">
+			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script src="js/jquery.placeholder.js"></script>
+			
+	</head>
+		<body>
+			<header>
+				<div class="container mobile-5">
+					<div class="row header-menu">
+						<div class="col-xs-9">
+							
+							<span><span class="size-16px"><b>За город!</b> </span> Чебоксары</span>
+							<a href="#" class="fontello-icon-down-open-mini icon"></a>
+								
+						</div>
+
+						<div class="col-xs-1">
+							<a href="#" class="size-16px fontello-icon-phone-1 icon"></a>
+						</div>
+
+						<div class="col-xs-2">
+							<a href="#" class="size-16px fontello-icon-menu pull-right icon"></a>
+						</div>
+
+					</div>
+
+				</div>
+			</header>
+
+			<section class="mobile-5">	
+				<div class="container uslugi ">
+					<div class="row transfer">
+						
+							<div class=" col-xs-12">
+								<p class="size-20px"><b>Трансфер <br />до места отдыха</b> </p><br />
+								<a href="#" class="btn btn-success col-xs-7">Заказать автобус</a>
+							</div>
+						
+					</div>
+				<div class="container">	
+					<div class="row">
+						<div class="col-xs-12 line ">
+						  <p class="size-1-1 line-height-1-43"> 
+						   Собрали компанию, нашли подходящее место &mdash; выходные обещают быть отличными!
+						   Но как же добраться дл базы отдыха? Далеко не всегда можно уместиться всей компанией в личные автомобили. Воспользуйтесь нашим транспортом!
+						   Мы возьмем на себя быструю и комфортную поездку в обе стороны. </p> <br />
+						   <div class="text-center">
+							   <img src="img/peugeot.png" alt="peugeot"/>
+							   <p ><span class=" size-1-2 font-bold">Peugeot Boxer, 14 мест</span> <br/ >
+							   <span class="size-0-9">кондиционер, музыка, тонировка,все дела </span></p><br />
+							   <p><img src="img/driver.png" alt="driver"/></p>
+							</div>   
+						</div>
+					</div>
+
+					<div class="row ">
+						<div class="col-xs-12 text-center">
+
+					 		<p class="size-16px"> Закажите транспорт<br /> к месту отдыха и обратно</p>
+					 	</div>
+					</div>
+				</div>	
+
+				</div>
+
+			</section>
+
+			<section class="mobile-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 forma-zakaza">	
+							
+							<form class="form-horizontal" role="form">
+								  <div class="form-group">
+								    <label for="date-in" class="col-xs-4 control-label">Заезд</label>
+								    <div class="col-xs-8">
+								      <input type="text" class="form-control" id="date-in" placeholder="29 декабря 11:00">
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="date-out" class="col-xs-4 control-label">Выезд</label>
+								    <div class="col-xs-8">
+								      <input type="text" class="form-control" id="date-out" placeholder="30 декабря 11:00">
+								    </div>
+								  </div>
+
+								  	<div class="form-group">
+
+								   <label for="guest" class="control-label col-xs-4">Пассажиров</label>
+								   	<div class="col-xs-4">
+								   <select id="guest" class="form-control">
+								   		<option selected value="10">10</option>	
+									    <option value="3">11</option>
+									    <option value="4">12</option>
+									    <option value="5">13</option>
+									   </select>
+									   </div>
+
+									 </div>
+
+									
+
+								  <div class="form-group">
+								    <label for="your-name" class="col-xs-12 control-label hidden"></label>
+								    <div class="col-xs-12">
+								      <input type="tel" class="form-control" id="your-name" placeholder="Ваше имя">
+								    </div>
+								  </div>
+
+								   <div class="form-group">
+								    <label for="your-phone" class="col-xs-12 control-label hidden"></label>
+								    <div class="col-xs-12">
+								      <input type="tel" class="form-control" id="your-phone" placeholder="Контактный телефон">
+								    </div>
+								  </div>
+
+								  <div class="form-group">
+								    <div class="col-xs-12">
+								      <button type="submit" class="btn btn-success size-1-2 col-xs-12"><b>Заказать</b></button>
+								    </div>
+								  </div>
+					
+								 
+							</form>
+
+							
+					
+						</div>
+					</div>	
+					
+				</div>	
+			</section>
+
+
+			<script>
+			// To test the @id toggling on password inputs in browsers that don’t support changing an input’s @type dynamically (e.g. Firefox 3.6 or IE), uncomment this:
+			// $.fn.hide = function() { return this; }
+			// Then uncomment the last rule in the <style> element (in the <head>).
+			$(function() {
+				// Invoke the plugin
+				$('input, textarea').placeholder();
+				// That’s it, really.
+				// Now display a message if the browser supports placeholder natively
+				var html;
+				
+				if (html) {
+					$('<p class="note">' + html + '</p>').insertAfter('form');
+				}
+			});
+		</script>
+	</body>
+</html>
