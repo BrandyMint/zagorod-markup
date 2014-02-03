@@ -1,0 +1,104 @@
+@import "screen"
+@import "bootstrap/_type"
+
+////////destop1-search
+.menu-desktop
+  opacity: 0.9
+  .left-border
+    border-left: 1px solid #81d35e
+    line-height: 1.83em
+    span
+      padding-left: 10px
+
+.desktop1-search
+  background: url("../img/desktop-1.png") 50% 50% no-repeat
+  color: $color-white
+  padding: 110px 0 100px 0
+  margin-top: -55px
+  .forma-zakaza
+    background: none
+    width: 735px
+    margin-top: 50px
+    margin-bottom: 60px
+    .btn
+      margin-top: 18px
+      padding: 6px 30px
+    label
+      color: $color-white
+  .form-control
+    margin-right: 10px 
+
+@media (max-width: $screen-sm-max)
+  .desktop1-search
+    padding: 70px 0 60px 0
+  h1
+    font-size: 24px
+
+@media (max-width: $screen-xs-max)
+  .desktop1-search
+    background: url("../img/mobile-1.png") no-repeat 0% 0%/cover
+    margin-top: 0px
+    height: 100px
+    padding: 25px 0px 0px 0px
+    h1
+      font-size: 20px 
+
+
+////////////////end
+
+
+///////////////desktop1-uslugi
+.desktop1-uslugi
+  padding: 15px 0px
+  .btn
+    margin: 10px 0 0 0
+    padding: 6px 10%
+  .transfer, .meat, .celebrity 
+    height: 240px
+    padding: 60px 0px
+
+@media (max-width: $screen-md-max)
+  .desktop1-uslugi  .hidden-xs
+    font-size: 18px    
+
+
+@media (max-width: $screen-sm-max)
+  .desktop1-uslugi
+    .transfer, .meat, .celebrity
+      height: 195px
+      padding: 40px 0px
+      margin-right: -10px
+      margin-left: -10px
+    .hidden-xs
+      font-size: 14px
+
+@media (max-width: $screen-xs-max)
+  .transfer, .meat, .celebrity
+    margin-bottom: 10px  
+
+
+////////////end
+
+//////////// desktop1 houses
+.desktop1-houses
+  padding: 20px 0px
+  background-color: #F2F2F2
+  img
+    margin-bottom: 10px  
+  .house-offer
+    padding-bottom: 0px 
+  .house-btn .btn
+    margin-top: 20px
+    margin-bottom: 0px 
+  .more
+    width: 250px   
+
+@media (max-width: $screen-sm-max)
+  .desktop1-houses
+    .house-offer
+      margin-right: -10px
+      margin-left: -10px  
+    .col-sm-4
+      padding: 0px 14px      
+    .house-btn .btn
+      margin-top: 10px  

@@ -6,7 +6,7 @@
 		</title>
 			<meta charset="utf-8">
 			 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<link  rel="stylesheet" href="stylesheets/screen.css" media="all">
+			<link  rel="stylesheet" href="stylesheets/desktop.css" media="all">
 			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 			<script src="js/jquery.placeholder.js"></script>
 			
@@ -16,37 +16,33 @@
 			<header class="header-menu menu-desktop">
 				<div class="container ">
 					<div class="row ">
-						<div class="col-md-4 col-sm-2">
-							
-							<span class="size-16px"><b>За город! </b> </span> <span class="size-0-8  hidden-sm"> ГОСТЕВЫЕ ДОМИКИ В АРЕНДУ</span>
-							
-								
-						</div>
-
-						<div class="col-md-2 col-sm-3">
-						    <span>Чебоксары<a href="#" class="fontello-icon-down-open-mini icon"></a></span>
-						</div>
 
 
-						<div class="col-md-3 col-sm-3">
-							<span class="size-16px fontello-icon-phone-1 icon"><span class="size-0-8">+7 919 669 80 00</span></span>
-						</div>
+					<ul class="list-inline col-sm-12 hidden-xs">
+					  <li class="col-md-4 col-sm-2"><b class="size-16px">За город! </b> 
+					  	<span class="size-0-8 hidden-sm"> ГОСТЕВЫЕ ДОМИКИ В АРЕНДУ</span>
+					  </li>
+					  <li class="col-md-2 col-sm-2 left-border"> <span>Чебоксары<a href="#" class="fontello-icon-down-open-mini icon"></a></span></li>
+					  <li class="col-md-3 col-sm-4 left-border"><span class="size-16px fontello-icon-phone-1 icon">
+					  								<span class="size-0-9"><b>+7 919 669 80 00</b></span></span></li>
+					  <li class="col-md-1 col-sm-1"><a href="#" class="size-16px"><b>Дома</b></a></li>
+					  <li class="col-md-1 col-sm-2 text-center"><a href="#" class="size-16px "><b>Транспорт</b></a></li>
+					  <li class="col-md-1 col-sm-1"><a href="#" class="size-16px pull-right"><b>Еда</b></a></li>
+					</ul>
 
-						<div class="col-md-1 col-sm-1">
-							<a href="#" class="size-16px">Дома</a>
-							
-						</div>
-						<div class="col-md-1 col-sm-2">
-							<a href="#" class="size-16px">Транспорт</a>
-						</div>
-						<div class=" col-md-1 col-sm-1">
-							<a href="#" class="size-16px pull-right">Еда</a>
-						</div>
-
-					</div>
-
+					<ul class="list-inline col-xs-12 visible-xs">
+					  <li class="col-xs-9"><span><span class="size-16px"><b>За город!</b> </span> Чебоксары</span>
+							<a href="#" class="fontello-icon-down-open-mini icon"></a></li>
+					  <li class="col-xs-1"> <a href="#" class="size-16px fontello-icon-phone-1 icon"></a></li>
+					  <li class="col-xs-2"><a href="#" class="size-16px fontello-icon-menu pull-right icon"></a></li>
+					</ul>
 
 					
+			
+
+					
+
+					</div>
 				</div>
 			</header>
 <!-- //////////////////////////////////////////////////////////////////////////////////////////  -->
@@ -55,23 +51,23 @@
 				<div class="container">
 					<div class="row ">
 
-						 <h2 class="font-bold text-center">Гостевыe дома в аренду</h2>
-							<form class="form-inline forma-zakaza col-md-11" role="form">
+						 <h1 class="font-bold text-center">Гостевыe дома в аренду</h1>
+							<form class="form-inline forma-zakaza center-block hidden-xs" role="form">
 								 
-								  <div class="form-group col-md-2">
+								  <div class="form-group">
 								    <label for="date-in" class="control-label">Заезд</label>
 								    <div>
 								      <input type="text" class="form-control" id="date-in" placeholder="29 декабря">
 								    </div>
 								  </div>
-								  <div class="form-group col-md-2">
+								  <div class="form-group">
 								    <label for="date-out" class=" control-label">Выезд</label>
 								    <div >
 								      <input type="text" class="form-control" id="date-out" placeholder="30 декабря">
 								    </div>
 								  </div>
 
-								  	<div class="form-group col-md-1">
+								  	<div class="form-group">
 
 									   <label for="guest" class="control-label">Гостей</label>
 									   	<div>
@@ -85,7 +81,7 @@
 
 									 </div>
 
-									 <div class="form-group col-md-2">
+									 <div class="form-group">
 
 									   <label for="guest" class="control-label">Цена</label>
 									   	<div >
@@ -101,50 +97,111 @@
 
 									
   
-									 <div class="form-group col-md-2">
+									 <div class="form-group">
 									   
-									      <button type="submit" class="btn btn-success btn-sm size-16px col-md-12"><b>Найти</b></button>
+									      <button type="submit" class="btn btn-success size-16px"><b>Найти</b></button>
 									    
 								  </div>
 					
 								 
 							</form>
+
 						
 					</div>
 				</div>
 			</section>
 
+			<section class="mobile-section-1 forma-zakaza visible-xs">
+				<div class="container">
+					<div class="row">
+						
+							<form class="form-horizontal" role="form">
+								
+								  <div class="form-group">
+								    <label for="date-in" class="col-xs-2 control-label">Заезд</label>
+								    <div class="col-xs-10">
+								      <input type="text" class="form-control" id="date-in" placeholder="29 декабря">
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="date-out" class="col-xs-2 control-label">Выезд</label>
+								    <div class="col-xs-10">
+								      <input type="text" class="form-control" id="date-out" placeholder="30 декабря">
+								    </div>
+								  </div>
+
+								  	<div class="form-group">
+
+								   <label for="guest" class="control-label col-xs-2">Гостей</label>
+								   	<div class="col-xs-4">
+								   <select id="guest" class="form-control">
+								   		<option selected value="2">2</option>	
+									    <option value="3">3</option>
+									    <option value="4">4</option>
+									    <option value="5">5</option>
+									   </select>
+									   </div>
+
+									 </div>
+
+									 <div class="form-group">
+
+									   <label for="guest" class="control-label col-xs-2">Цена</label>
+									   	<div class="col-xs-7">
+									   <select id="guest" class="form-control">
+									   		<option selected value="2">до 6000 р./сутки</option>	
+										    <option value="3">до 7000 р./сутки</option>
+										    <option value="4">до 8000 р./сутки</option>
+										    <option value="5">до 9000 р./сутки</option>
+										   </select>
+										   </div>
+
+									 </div>
+
+									 <div class="form-group">
+									    <div class="col-xs-12">
+									      <button type="submit" class="btn btn-success btn-lg size-16px col-xs-12"><b>Найти</b></button>
+									    </div>
+								  </div>
+					
+								 
+							</form>
+								
+					</div>	
+				</div>	<!-- end container-->	
+			</section>
+
 			<section class="desktop1-uslugi">
 				<div class="container uslugi">
 					<div class="row">
-					 <div class="col-md-12">
-						<div class="row">
-							<div class="col-md-4">
-								<p class="text-center size-20px">Не знаете, как добраться?</p>
-								<div class="transfer">
-									<p class="size-20px"><b>Трансфер<br />до места отдыха</b> </p>
-									<a href="#" class="btn btn-success col-md-5">Подробнее</a>
-									
-								</div>
-							</div>
-					
+					 <div class="col-md-12 col-sm-12">
+						<div class="row text-center">
+									<div class="col-md-4 col-sm-4">
+										<p class=" size-20px gray-color hidden-xs">Не знаете, как добраться?</p>
+										<div class="transfer">
+											<p class="size-20px"><b>Трансфер<br />до места отдыха</b> </p>
+											<a href="#" class="btn btn-success">Подробнее</a>
+											
+										</div>
+									</div>
+							
 
-						<div class="col-md-4">
-							<p class="text-center size-20px">Отдыхайте без лишних хлопот</p>
-							<div class="meat">
-								<p class="size-20px"><b>Еда и выездное<br />обслуживание</b> </p>
-								<a href="#" class="btn btn-success col-md-5">Подробнее</a>
-							</div>
-						</div>	
-						
+								<div class="col-md-4 col-sm-4">
+									<p class="size-20px gray-color hidden-xs">Отдыхайте без лишних хлопот</p>
+									<div class="meat">
+										<p class="size-20px"><b>Еда и выездное<br />обслуживание</b> </p>
+										<a href="#" class="btn btn-success">Подробнее</a>
+									</div>
+								</div>	
+								
 
-						<div class="col-md-4">
-							<p class="text-center size-20px">Лучшие впечатления</p>
-							<div class="celebrity">
-								<p class="size-20px"><b>Организация<br />праздников</b> </p>
-								<a href="#" class="btn btn-success col-md-5">Подробнее</a>
-							</div>
-						</div>	
+								<div class="col-md-4 col-sm-4">
+									<p class="size-20px gray-color hidden-xs">Лучшие впечатления</p>
+									<div class="celebrity">
+										<p class="size-20px"><b>Организация<br />праздников</b> </p>
+										<a href="#" class="btn btn-success">Подробнее</a>
+									</div>
+								</div>	
 
 						</div>	
 						</div>
@@ -155,26 +212,27 @@
 			<section class="desktop1-houses">
 				<div class="container">
 					<div class="row">
-					  <div class="col-md-12">
+					  <div class="col-md-12 col-sm-12">
+					  		<h4 class="gray-color">Лучшие предложения</h4>
 					  	<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4">
 								<div class="house-offer ">	
-								
+									
 									<div class="row">
 										<div class="col-md-12"><img src="img/house-1.png" alt="house"/> </div>	
 									</div>
 
 									<div class="row">
 										<div class="col-md-12">
-										 <p class="size-16px col-md-12">Банный комплекс <br />(всесезонный)</p>
+										 <p class="size-16px col-md-12"><b>Банный комплекс (всесезонный)</b></p>
 										</div>	
 									</div>
 
 									<div class="row">
 										<div class="col-md-12">
-										 	<span class="col-md-12" >На 6 человек</span>
-										 	<span class="size-0-9 col-md-12">База отдыха Golden Fish &nbsp;
-										 	<span class="fontello-icon-address gray-color">26 км</span></span>
+										 	<span class="col-md-12 col-sm-12 col-xs-12" >На 6 человек</span>
+										 	<span class="size-0-9 col-md-12 col-sm-12">База отдыха Golden Fish &nbsp;
+										 	<span class="fontello-icon-address gray-color">26км</span></span>
 										</div>	
 									</div>
 
@@ -182,7 +240,7 @@
 									<div class="col-md-12">
 										<div class="form-group house-btn">
 												   
-												      <button type="submit" class="btn btn-success col-md-12 col-sm-12">
+												      <button type="submit" class="btn btn-success col-md-12 col-sm-12 col-xs-12">
 												     	 <span class="col-xs-5 size-16px">8000 р.</span> 
 												     	 <span class="size-1-2 col-xs-7"><b>Заказать</b></span>
 												     </button>
@@ -193,7 +251,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4">
 								<div class="house-offer ">	
 								
 									<div class="row">
@@ -202,15 +260,15 @@
 
 									<div class="row">
 										<div class="col-md-12">
-										 <p class="size-16px col-md-12">Банный комплекс <br />(всесезонный)</p>
+										 <p class="size-16px col-md-12"><b>Банный комплекс (всесезонный)</b></p>
 										</div>	
 									</div>
 
 									<div class="row">
 										<div class="col-md-12">
-										 	<span class="col-md-12" >На 6 человек</span>
-										 	<span class="size-0-9 col-md-12">База отдыха Golden Fish &nbsp;
-										 	<span class="fontello-icon-address gray-color">26 км</span></span>
+										 	<span class="col-md-12 col-sm-12 col-xs-12" >На 6 человек</span>
+										 	<span class="size-0-9 col-md-12 col-sm-12">База отдыха Golden Fish &nbsp;
+										 	<span class="fontello-icon-address gray-color">26км</span></span>
 										</div>	
 									</div>
 
@@ -218,7 +276,7 @@
 									<div class="col-md-12">
 										<div class="form-group house-btn">
 												   
-												      <button type="submit" class="btn btn-success col-md-12 col-sm-12">
+												      <button type="submit" class="btn btn-success col-md-12 col-sm-12 col-xs-12">
 												     	 <span class="col-xs-5 size-16px">8000 р.</span> 
 												     	 <span class="size-1-2 col-xs-7"><b>Заказать</b></span>
 												     </button>
@@ -229,7 +287,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4">
 								<div class="house-offer ">	
 								
 									<div class="row">
@@ -238,15 +296,15 @@
 
 									<div class="row">
 										<div class="col-md-12">
-										 <p class="size-16px col-md-12">Банный комплекс <br />(всесезонный)</p>
+										 <p class="size-16px col-md-12"><b>Банный комплекс (всесезонный)</b></p>
 										</div>	
 									</div>
 
 									<div class="row">
 										<div class="col-md-12">
-										 	<span class="col-md-12" >На 6 человек</span>
-										 	<span class="size-0-9 col-md-12">База отдыха Golden Fish &nbsp;
-										 	<span class="fontello-icon-address gray-color">26 км</span></span>
+										 	<span class="col-md-12 col-sm-12 col-xs-12" >На 6 человек</span>
+										 	<span class="size-0-9 col-md-12 col-sm-12">База отдыха Golden Fish &nbsp;
+										 	<span class="fontello-icon-address gray-color">26км</span></span>
 										</div>	
 									</div>
 
@@ -254,7 +312,7 @@
 									<div class="col-md-12">
 										<div class="form-group house-btn">
 												   
-												      <button type="submit" class="btn btn-success col-md-12 col-sm-12">
+												      <button type="submit" class="btn btn-success col-md-12 col-sm-12 col-xs-12">
 												     	 <span class="col-xs-5 size-16px">8000 р.</span> 
 												     	 <span class="size-1-2 col-xs-7"><b>Заказать</b></span>
 												     </button>
