@@ -15946,7 +15946,7 @@ html {
 
 /* line 22, ../components/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -16265,12 +16265,12 @@ input[type="checkbox"]:checked + .checkbox span {
   padding-left: 0px;
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 .zakaz-doma {
   border-bottom: 1px solid #edf6ea;
   margin-bottom: 5px;
 }
-/* line 54, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 .zakaz-doma .zakaz {
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
@@ -16283,102 +16283,102 @@ input[type="checkbox"]:checked + .checkbox span {
   font-weight: bold;
 }
 
-/* line 64, ../sass/screen.sass */
+/* line 66, ../sass/screen.sass */
 .mobile4-house-info a {
   color: #595959;
 }
-/* line 66, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 .mobile4-house-info a:hover {
   color: #50b848;
 }
 
-/* line 70, ../sass/screen.sass */
+/* line 72, ../sass/screen.sass */
 .mobile4-house-info .switch {
   margin: 0 -15px;
 }
-/* line 72, ../sass/screen.sass */
+/* line 74, ../sass/screen.sass */
 .mobile4-house-info .choise {
   padding: 10px 15px;
 }
 
-/* line 75, ../sass/screen.sass */
+/* line 77, ../sass/screen.sass */
 .mobile4-house-info .spisok {
   display: inline-block;
   font-size: 0.9em;
   padding-left: 10px;
   vertical-align: top;
 }
-/* line 80, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 .mobile4-house-info .spisok li {
   line-height: 1.7em;
 }
 
-/* line 84, ../sass/screen.sass */
+/* line 86, ../sass/screen.sass */
 .mobile4-house-info .focused {
   font-weight: bold;
   border-bottom: 3px solid #50b848;
 }
-/* line 87, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .mobile4-house-info .focused a, .mobile4-house-info .focused a:hover, .mobile4-house-info .focused a:visited {
   color: #50b848;
 }
 
-/* line 92, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 .mobile4-house-info .size-20px {
   margin-bottom: 7px;
 }
-/* line 94, ../sass/screen.sass */
+/* line 96, ../sass/screen.sass */
 .mobile4-house-info .slider {
   margin: 16px -15px;
 }
-/* line 96, ../sass/screen.sass */
+/* line 98, ../sass/screen.sass */
 .mobile4-house-info .slider .photos {
   width: 100%;
 }
-/* line 98, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 .mobile4-house-info .price {
   padding-bottom: 10px;
 }
 
-/* line 102, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
 .block-info {
   color: #4d4d4d;
 }
-/* line 104, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 .block-info .count {
   padding: 13px 0;
 }
 
-/* line 111, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 .mobile4-forma-zakaza .forma-zakaza {
   margin-top: 30px;
 }
-/* line 113, ../sass/screen.sass */
+/* line 115, ../sass/screen.sass */
 .mobile4-forma-zakaza .forma-zakaza .btn {
   padding: 10px 12px;
   font-size: 16px;
   border-bottom: 1px solid #378b36;
 }
 
-/* line 118, ../sass/screen.sass */
+/* line 120, ../sass/screen.sass */
 .question-call {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 30px;
 }
 
-/* line 126, ../sass/screen.sass */
+/* line 128, ../sass/screen.sass */
 .mobile4-houses {
   background-color: #e5e5e5;
   padding-bottom: 25px;
 }
-/* line 129, ../sass/screen.sass */
+/* line 131, ../sass/screen.sass */
 .mobile4-houses img {
   float: left;
   width: 85px;
   margin: 0 15px 10px 0;
 }
-/* line 133, ../sass/screen.sass */
+/* line 135, ../sass/screen.sass */
 .mobile4-houses .house {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -16387,109 +16387,109 @@ input[type="checkbox"]:checked + .checkbox span {
   padding: 10px 17px;
 }
 
-/* line 139, ../sass/screen.sass */
+/* line 141, ../sass/screen.sass */
 .mobile4-houses .size-10px {
   color: #6d6d6d;
 }
 
-/* line 145, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .section4-footer {
   color: #6d6d6d;
   padding-top: 30px;
 }
-/* line 148, ../sass/screen.sass */
+/* line 150, ../sass/screen.sass */
 .section4-footer .color-black {
   color: #1f1f1f;
 }
 
-/* line 154, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 .mobile-4-footer {
   color: #6d6d6d;
 }
-/* line 156, ../sass/screen.sass */
+/* line 158, ../sass/screen.sass */
 .mobile-4-footer .icon {
   font-size: 1.5em;
   vertical-align: middle;
   line-height: 1.8em;
   color: #6d6d6d;
 }
-/* line 161, ../sass/screen.sass */
+/* line 163, ../sass/screen.sass */
 .mobile-4-footer .fontello-icon-twitter, .mobile-4-footer .fontello-icon-facebook {
   margin-right: 15px;
 }
 
-/* line 169, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .all-home {
   padding: 10px 0;
 }
-/* line 171, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 .all-home .size-20px {
   line-height: 1.3em;
 }
 
-/* line 175, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
 .mobile-2-section {
   background-color: #e5e5e5;
   border-top: 1px solid #d5d5d5;
 }
-/* line 178, ../sass/screen.sass */
+/* line 180, ../sass/screen.sass */
 .mobile-2-section .btn-success {
   margin-top: -20px;
 }
-/* line 180, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 .mobile-2-section p {
   font-weight: bold;
 }
 
-/* line 183, ../sass/screen.sass */
+/* line 185, ../sass/screen.sass */
 .mobile-2-section .more {
   margin: 30px 0;
   padding: 12px 0;
 }
 
-/* line 187, ../sass/screen.sass */
+/* line 189, ../sass/screen.sass */
 .btn-xs {
   padding: 3px 12px;
 }
 
-/* line 194, ../sass/screen.sass */
+/* line 196, ../sass/screen.sass */
 .mobile-header {
   height: 100px;
   background: url("../img/mobile-1.png") no-repeat 0% 0%/cover;
   text-align: center;
   color: white;
 }
-/* line 199, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .mobile-header .size-20px {
   margin-top: 35px;
 }
 
-/* line 204, ../sass/screen.sass */
+/* line 206, ../sass/screen.sass */
 .mobile-section-1 {
   padding: 25px 15px 15px 15px;
 }
-/* line 206, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
 .mobile-section-1 .btn {
   border-bottom: 1px solid #378b36;
   margin-top: 10px;
 }
 
-/* line 210, ../sass/screen.sass */
+/* line 212, ../sass/screen.sass */
 .uslugi {
   padding: 20px 15px 30px 15px;
 }
-/* line 212, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .uslugi .btn {
   margin-top: -10px;
   margin-left: 20%;
   margin-right: 20%;
 }
-/* line 216, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .uslugi .row {
   margin-bottom: 10px;
 }
 
-/* line 219, ../sass/screen.sass */
+/* line 221, ../sass/screen.sass */
 .uslugi .transfer, .meat, .celebrity {
   padding: 25px 0px;
   height: 195px;
@@ -16497,61 +16497,61 @@ input[type="checkbox"]:checked + .checkbox span {
   text-align: center;
 }
 
-/* line 225, ../sass/screen.sass */
+/* line 227, ../sass/screen.sass */
 .uslugi .transfer {
   background: url("../img/mobile-2.png") no-repeat 0% 0%/cover;
 }
 
-/* line 228, ../sass/screen.sass */
+/* line 230, ../sass/screen.sass */
 .uslugi .meat {
   background: url("../img/mobile-3.png") no-repeat 0% 0%/cover;
 }
 
-/* line 231, ../sass/screen.sass */
+/* line 233, ../sass/screen.sass */
 .uslugi .celebrity {
   background: url("../img/mobile-4.png") no-repeat 0% 0%/cover;
 }
 
-/* line 234, ../sass/screen.sass */
+/* line 236, ../sass/screen.sass */
 .mobile-section-2 {
   border-top: none;
 }
-/* line 236, ../sass/screen.sass */
+/* line 238, ../sass/screen.sass */
 .mobile-section-2 .size-20px {
   margin-top: 25px;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-/* line 246, ../sass/screen.sass */
+/* line 248, ../sass/screen.sass */
 .mobile-3 .forma-zakaza {
   padding-top: 10px;
   border-top: 1px solid #cecece;
 }
-/* line 249, ../sass/screen.sass */
+/* line 251, ../sass/screen.sass */
 .mobile-3 .filter {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 257, ../sass/screen.sass */
+/* line 259, ../sass/screen.sass */
 .mobile-5 .uslugi {
   padding: 0px;
   margin-top: -42px;
 }
-/* line 260, ../sass/screen.sass */
+/* line 262, ../sass/screen.sass */
 .mobile-5 .uslugi .transfer {
   padding-top: 50px;
   margin: 0px;
   height: 210px;
 }
 
-/* line 265, ../sass/screen.sass */
+/* line 267, ../sass/screen.sass */
 .mobile-5 .header-menu {
   opacity: 0.9;
 }
 
-/* line 268, ../sass/screen.sass */
+/* line 270, ../sass/screen.sass */
 .mobile-5 .forma-zakaza {
   padding-top: 20px;
   padding-bottom: 20px;

@@ -21,15 +21,20 @@
     margin-top: 50px
     margin-bottom: 60px
     .btn
-      margin-top: 18px
+      margin-top: 23px
       padding: 6px 30px
     label
       color: $color-white
   .form-control
     margin-right: 10px 
+  input[type="text"]  
+    width: 175px
+  .control-label
+    margin-bottom: 5px  
 
 @media (max-width: $screen-sm-max)
   .desktop1-search
+    background: url("../img/mobile-1.png") no-repeat 0% 0%/cover
     padding: 70px 0 60px 0
   h1
     font-size: 24px
@@ -102,3 +107,40 @@
       padding: 0px 14px      
     .house-btn .btn
       margin-top: 10px  
+
+//////////////////////////////////////end
+
+////////////////desktop-2-forma-zakaza
+.desktop-2-forma-zakaza
+  background-color: $color-forma
+  padding: 20px 0px
+  .form-inline
+    .control-label
+      margin-bottom: 5px
+    .form-control
+      width: 145px
+      margin-right: 5px
+    #guest, #price
+      width: 70px
+    .btn
+      margin-top: 23px
+      padding: 6px 30px  
+
+@media (max-width: $screen-sm-max)
+  .desktop-2-forma-zakaza .form-inline
+    .btn
+      padding: 6px 25px        
+
+@media (max-width: $screen-xs-max)
+  .desktop-2-forma-zakaza
+    background-color: $color-white
+    padding: 10px 0px
+  .desktop1-houses
+    background-color: $color-forma
+    padding: 0px    
+
+//////////////end
+
+////////////desktop2-houses
+.desktop1-houses
+  border-top: 1px solid #D5D5D5
