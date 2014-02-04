@@ -17174,3 +17174,56 @@ address {
 .desktop1-houses {
   border-top: 1px solid #d5d5d5;
 }
+
+/* line 151, ../sass/desktop.sass */
+.desktop-3 .forma-zakaza {
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 154, ../sass/desktop.sass */
+.desktop-3 .forma-zakaza .absolute {
+  position: absolute;
+  margin-top: 40px;
+}
+/* line 157, ../sass/desktop.sass */
+.desktop-3 .forma-zakaza .group-checkbox {
+  margin-top: 25px;
+}
+/* line 159, ../sass/desktop.sass */
+.desktop-3 .checkbox {
+  margin: 5px 0px;
+}
+/* line 161, ../sass/desktop.sass */
+.desktop-3 label {
+  font-size: 13px;
+}
+
+/* line 167, ../sass/desktop.sass */
+.desktop3-houses {
+  margin-top: 70px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 992px) {
+  /* line 174, ../sass/desktop.sass */
+  .desktop-3 .filter .btn-xs {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 178, ../sass/desktop.sass */
+  .col-xs-5 .btn-xs {
+    float: right;
+  }
+
+  /* line 181, ../sass/desktop.sass */
+  .desktop-3 .forma-zakaza {
+    padding-top: 10px;
+    border-top: 1px solid #cecece;
+  }
+  /* line 184, ../sass/desktop.sass */
+  .desktop-3 .forma-zakaza .absolute {
+    margin-top: 0px;
+  }
+}
