@@ -17227,3 +17227,176 @@ address {
     margin-top: 0px;
   }
 }
+/* line 192, ../sass/desktop.sass */
+.desktop-4 .switch, .desktop-4 .slider {
+  margin: 0px;
+}
+
+/* line 197, ../sass/desktop.sass */
+.desktop-4 .left-column {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+/* line 201, ../sass/desktop.sass */
+.desktop-4 .left-column .basa-info {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 206, ../sass/desktop.sass */
+.desktop-4 .udobstva {
+  padding-left: 15px;
+}
+/* line 208, ../sass/desktop.sass */
+.desktop-4 .udobstva li {
+  float: left;
+  width: 240px;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 991px) {
+  /* line 215, ../sass/desktop.sass */
+  .desktop-4 .left-column .switch {
+    margin: 0px -15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 219, ../sass/desktop.sass */
+  .desktop-4 .udobstva li {
+    margin-right: 17px;
+    width: 120px;
+    font-size: 13px;
+  }
+}
+/* line 228, ../sass/desktop.sass */
+.desktop-4 .right-column {
+  padding-top: 60px;
+}
+/* line 230, ../sass/desktop.sass */
+.desktop-4 .right-column .price-day {
+  padding-left: 30px;
+}
+
+/* line 234, ../sass/desktop.sass */
+.desktop-4 .forma-zakaza {
+  font-size: 13px;
+}
+/* line 236, ../sass/desktop.sass */
+.desktop-4 .forma-zakaza .col-md-4 {
+  padding-right: 0px;
+}
+/* line 238, ../sass/desktop.sass */
+.desktop-4 .forma-zakaza .form-control {
+  width: 100%;
+  font-size: 13px;
+}
+
+/* line 242, ../sass/desktop.sass */
+.desktop-4 .desktop-2-forma-zakaza {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #ededed;
+  border: 1px solid #d9d9d9;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+}
+/* line 249, ../sass/desktop.sass */
+.desktop-4 .desktop-2-forma-zakaza input {
+  margin-bottom: 15px;
+}
+/* line 251, ../sass/desktop.sass */
+.desktop-4 .desktop-2-forma-zakaza .btn-absolute {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  padding: 15px 20px;
+  top: 200px;
+  left: 0px;
+}
+/* line 259, ../sass/desktop.sass */
+.desktop-4 .desktop-2-forma-zakaza .btn-absolute .btn {
+  margin: 0px;
+}
+
+/* line 263, ../sass/desktop.sass */
+.desktop-4 .tell-friends {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+/* line 268, ../sass/desktop.sass */
+.desktop-4 .icons {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+/* line 271, ../sass/desktop.sass */
+.desktop-4 .icons .icon {
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 276, ../sass/desktop.sass */
+  .desktop-4 .forma-relative {
+    margin-bottom: 70px;
+  }
+}
+/* line 282, ../sass/desktop.sass */
+.desktop-4-houses-similar {
+  background-color: #e5e5e5;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+/* line 287, ../sass/desktop.sass */
+.desktop-4-houses-similar .house-offer {
+  padding-bottom: 0px;
+}
+/* line 289, ../sass/desktop.sass */
+.desktop-4-houses-similar .house-offer .btn {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+/* line 292, ../sass/desktop.sass */
+.desktop-4-houses-similar .house-offer .md-margin {
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 297, ../sass/desktop.sass */
+  .desktop-4-houses-similar .house-offer img {
+    float: left;
+    width: 85px;
+    margin: 0 5px 10px 0;
+  }
+  /* line 301, ../sass/desktop.sass */
+  .desktop-4-houses-similar .house-offer .xs-padding {
+    padding: 10px 10px 0px 15px;
+  }
+  /* line 303, ../sass/desktop.sass */
+  .desktop-4-houses-similar .house-offer .md-margin {
+    margin-left: 0px;
+  }
+}
+/* line 309, ../sass/desktop.sass */
+.desktop-4-footer {
+  color: #6d6d6d;
+}
+/* line 311, ../sass/desktop.sass */
+.desktop-4-footer .icon {
+  font-size: 1.5em;
+  vertical-align: middle;
+  line-height: 1.8em;
+  color: #6d6d6d;
+}
+/* line 316, ../sass/desktop.sass */
+.desktop-4-footer .fontello-icon-twitter, .desktop-4-footer .fontello-icon-facebook {
+  margin-right: 15px;
+}
