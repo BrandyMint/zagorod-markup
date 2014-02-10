@@ -16976,229 +16976,231 @@ address {
 
 /* line 5, ../sass/desktop.sass */
 .menu-desktop {
+  position: relative;
   opacity: 0.9;
+  z-index: 999;
 }
-/* line 7, ../sass/desktop.sass */
+/* line 9, ../sass/desktop.sass */
 .menu-desktop .left-border {
   border-left: 1px solid #81d35e;
   line-height: 1.83em;
 }
-/* line 10, ../sass/desktop.sass */
+/* line 12, ../sass/desktop.sass */
 .menu-desktop .left-border span {
   padding-left: 10px;
 }
 
-/* line 13, ../sass/desktop.sass */
+/* line 15, ../sass/desktop.sass */
 .desktop1-search {
   background: url("../img/desktop-1.png") 50% 50% no-repeat;
   color: white;
   padding: 110px 0 100px 0;
   margin-top: -55px;
 }
-/* line 18, ../sass/desktop.sass */
+/* line 20, ../sass/desktop.sass */
 .desktop1-search .forma-zakaza {
   background: none;
   width: 735px;
   margin-top: 50px;
   margin-bottom: 60px;
 }
-/* line 23, ../sass/desktop.sass */
+/* line 25, ../sass/desktop.sass */
 .desktop1-search .forma-zakaza .btn {
   margin-top: 23px;
   padding: 6px 30px;
 }
-/* line 26, ../sass/desktop.sass */
+/* line 28, ../sass/desktop.sass */
 .desktop1-search .forma-zakaza label {
   color: white;
 }
-/* line 28, ../sass/desktop.sass */
+/* line 30, ../sass/desktop.sass */
 .desktop1-search .form-control {
   margin-right: 10px;
 }
-/* line 30, ../sass/desktop.sass */
+/* line 32, ../sass/desktop.sass */
 .desktop1-search input[type="text"] {
   width: 175px;
 }
-/* line 32, ../sass/desktop.sass */
+/* line 34, ../sass/desktop.sass */
 .desktop1-search .control-label {
   margin-bottom: 5px;
 }
 
 @media (max-width: 991px) {
-  /* line 36, ../sass/desktop.sass */
+  /* line 38, ../sass/desktop.sass */
   .desktop1-search {
     background: url("../img/mobile-1.png") no-repeat 0% 0%/cover;
     padding: 70px 0 60px 0;
   }
 
-  /* line 39, ../sass/desktop.sass */
+  /* line 41, ../sass/desktop.sass */
   h1 {
     font-size: 24px;
   }
 }
 @media (max-width: 767px) {
-  /* line 43, ../sass/desktop.sass */
+  /* line 45, ../sass/desktop.sass */
   .desktop1-search {
     background: url("../img/mobile-1.png") no-repeat 0% 0%/cover;
     margin-top: 0px;
     height: 100px;
     padding: 25px 0px 0px 0px;
   }
-  /* line 48, ../sass/desktop.sass */
+  /* line 50, ../sass/desktop.sass */
   .desktop1-search h1 {
     font-size: 20px;
   }
 }
-/* line 56, ../sass/desktop.sass */
+/* line 58, ../sass/desktop.sass */
 .desktop1-uslugi {
   padding: 15px 0px;
 }
-/* line 58, ../sass/desktop.sass */
+/* line 60, ../sass/desktop.sass */
 .desktop1-uslugi .btn {
   margin: 10px 0 0 0;
   padding: 6px 10%;
 }
-/* line 61, ../sass/desktop.sass */
+/* line 63, ../sass/desktop.sass */
 .desktop1-uslugi .transfer, .desktop1-uslugi .meat, .desktop1-uslugi .celebrity {
   height: 240px;
   padding: 60px 0px;
 }
 
 @media (max-width: 1199px) {
-  /* line 66, ../sass/desktop.sass */
+  /* line 68, ../sass/desktop.sass */
   .desktop1-uslugi .hidden-xs {
     font-size: 18px;
   }
 }
 @media (max-width: 991px) {
-  /* line 72, ../sass/desktop.sass */
+  /* line 74, ../sass/desktop.sass */
   .desktop1-uslugi .transfer, .desktop1-uslugi .meat, .desktop1-uslugi .celebrity {
     height: 195px;
     padding: 40px 0px;
     margin-right: -10px;
     margin-left: -10px;
   }
-  /* line 77, ../sass/desktop.sass */
+  /* line 79, ../sass/desktop.sass */
   .desktop1-uslugi .hidden-xs {
     font-size: 14px;
   }
 }
 @media (max-width: 767px) {
-  /* line 81, ../sass/desktop.sass */
+  /* line 83, ../sass/desktop.sass */
   .transfer, .meat, .celebrity {
     margin-bottom: 10px;
   }
 }
-/* line 88, ../sass/desktop.sass */
+/* line 90, ../sass/desktop.sass */
 .desktop1-houses {
   padding: 20px 0px;
   background-color: #f2f2f2;
 }
-/* line 91, ../sass/desktop.sass */
+/* line 93, ../sass/desktop.sass */
 .desktop1-houses img {
   margin-bottom: 10px;
 }
-/* line 93, ../sass/desktop.sass */
+/* line 95, ../sass/desktop.sass */
 .desktop1-houses .house-offer {
   padding-bottom: 0px;
 }
-/* line 95, ../sass/desktop.sass */
+/* line 97, ../sass/desktop.sass */
 .desktop1-houses .house-btn .btn {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-/* line 98, ../sass/desktop.sass */
+/* line 100, ../sass/desktop.sass */
 .desktop1-houses .more {
   width: 250px;
 }
 
 @media (max-width: 991px) {
-  /* line 103, ../sass/desktop.sass */
+  /* line 105, ../sass/desktop.sass */
   .desktop1-houses .house-offer {
     margin-right: -10px;
     margin-left: -10px;
   }
-  /* line 106, ../sass/desktop.sass */
+  /* line 108, ../sass/desktop.sass */
   .desktop1-houses .col-sm-4 {
     padding: 0px 14px;
   }
-  /* line 108, ../sass/desktop.sass */
+  /* line 110, ../sass/desktop.sass */
   .desktop1-houses .house-btn .btn {
     margin-top: 10px;
   }
 }
-/* line 114, ../sass/desktop.sass */
+/* line 116, ../sass/desktop.sass */
 .desktop-2-forma-zakaza {
   background-color: #e5e5e5;
   padding: 20px 0px;
 }
-/* line 118, ../sass/desktop.sass */
+/* line 120, ../sass/desktop.sass */
 .desktop-2-forma-zakaza .form-inline .control-label {
   margin-bottom: 5px;
 }
-/* line 120, ../sass/desktop.sass */
+/* line 122, ../sass/desktop.sass */
 .desktop-2-forma-zakaza .form-inline .form-control {
   width: 145px;
   margin-right: 5px;
 }
-/* line 123, ../sass/desktop.sass */
+/* line 125, ../sass/desktop.sass */
 .desktop-2-forma-zakaza .form-inline #guest, .desktop-2-forma-zakaza .form-inline #price {
   width: 70px;
 }
-/* line 125, ../sass/desktop.sass */
+/* line 127, ../sass/desktop.sass */
 .desktop-2-forma-zakaza .form-inline .btn {
   margin-top: 23px;
   padding: 6px 30px;
 }
 
 @media (max-width: 991px) {
-  /* line 131, ../sass/desktop.sass */
+  /* line 133, ../sass/desktop.sass */
   .desktop-2-forma-zakaza .form-inline .btn {
     padding: 6px 25px;
   }
 }
 @media (max-width: 767px) {
-  /* line 135, ../sass/desktop.sass */
+  /* line 137, ../sass/desktop.sass */
   .desktop-2-forma-zakaza {
     background-color: white;
     padding: 10px 0px;
   }
 
-  /* line 138, ../sass/desktop.sass */
+  /* line 140, ../sass/desktop.sass */
   .desktop1-houses {
     background-color: #e5e5e5;
     padding: 0px;
   }
 }
-/* line 145, ../sass/desktop.sass */
+/* line 147, ../sass/desktop.sass */
 .desktop1-houses {
   border-top: 1px solid #d5d5d5;
 }
 
-/* line 151, ../sass/desktop.sass */
+/* line 153, ../sass/desktop.sass */
 .desktop-3 .forma-zakaza {
   position: relative;
   margin-bottom: 30px;
 }
-/* line 154, ../sass/desktop.sass */
+/* line 156, ../sass/desktop.sass */
 .desktop-3 .forma-zakaza .absolute {
   position: absolute;
   margin-top: 40px;
 }
-/* line 157, ../sass/desktop.sass */
+/* line 159, ../sass/desktop.sass */
 .desktop-3 .forma-zakaza .group-checkbox {
   margin-top: 25px;
 }
-/* line 159, ../sass/desktop.sass */
+/* line 161, ../sass/desktop.sass */
 .desktop-3 .checkbox {
   margin: 5px 0px;
 }
-/* line 161, ../sass/desktop.sass */
+/* line 163, ../sass/desktop.sass */
 .desktop-3 label {
   font-size: 13px;
 }
 
-/* line 167, ../sass/desktop.sass */
+/* line 169, ../sass/desktop.sass */
 .desktop3-houses {
   margin-top: 70px;
   padding-bottom: 20px;
@@ -17206,48 +17208,48 @@ address {
 }
 
 @media (min-width: 992px) {
-  /* line 174, ../sass/desktop.sass */
+  /* line 176, ../sass/desktop.sass */
   .desktop-3 .filter .btn-xs {
     margin-left: -70px;
   }
 }
 @media (max-width: 767px) {
-  /* line 178, ../sass/desktop.sass */
+  /* line 180, ../sass/desktop.sass */
   .col-xs-5 .btn-xs {
     float: right;
   }
 
-  /* line 181, ../sass/desktop.sass */
+  /* line 183, ../sass/desktop.sass */
   .desktop-3 .forma-zakaza {
     padding-top: 10px;
     border-top: 1px solid #cecece;
   }
-  /* line 184, ../sass/desktop.sass */
+  /* line 186, ../sass/desktop.sass */
   .desktop-3 .forma-zakaza .absolute {
     margin-top: 0px;
   }
 }
-/* line 192, ../sass/desktop.sass */
+/* line 194, ../sass/desktop.sass */
 .desktop-4 .switch, .desktop-4 .slider {
   margin: 0px;
 }
 
-/* line 197, ../sass/desktop.sass */
+/* line 199, ../sass/desktop.sass */
 .desktop-4 .left-column {
   padding-top: 20px;
   padding-bottom: 60px;
 }
-/* line 201, ../sass/desktop.sass */
+/* line 203, ../sass/desktop.sass */
 .desktop-4 .left-column .basa-info {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-/* line 206, ../sass/desktop.sass */
+/* line 208, ../sass/desktop.sass */
 .desktop-4 .udobstva {
   padding-left: 15px;
 }
-/* line 208, ../sass/desktop.sass */
+/* line 210, ../sass/desktop.sass */
 .desktop-4 .udobstva li {
   float: left;
   width: 240px;
@@ -17255,43 +17257,43 @@ address {
 }
 
 @media (max-width: 991px) {
-  /* line 215, ../sass/desktop.sass */
+  /* line 217, ../sass/desktop.sass */
   .desktop-4 .left-column .switch {
     margin: 0px -15px;
   }
 }
 @media (max-width: 767px) {
-  /* line 219, ../sass/desktop.sass */
+  /* line 221, ../sass/desktop.sass */
   .desktop-4 .udobstva li {
     margin-right: 17px;
     width: 120px;
     font-size: 13px;
   }
 }
-/* line 228, ../sass/desktop.sass */
+/* line 230, ../sass/desktop.sass */
 .desktop-4 .right-column {
   padding-top: 60px;
 }
-/* line 230, ../sass/desktop.sass */
+/* line 232, ../sass/desktop.sass */
 .desktop-4 .right-column .price-day {
   padding-left: 30px;
 }
 
-/* line 234, ../sass/desktop.sass */
+/* line 236, ../sass/desktop.sass */
 .desktop-4 .forma-zakaza {
   font-size: 13px;
 }
-/* line 236, ../sass/desktop.sass */
+/* line 238, ../sass/desktop.sass */
 .desktop-4 .forma-zakaza .col-md-4 {
   padding-right: 0px;
 }
-/* line 238, ../sass/desktop.sass */
+/* line 240, ../sass/desktop.sass */
 .desktop-4 .forma-zakaza .form-control {
   width: 100%;
   font-size: 13px;
 }
 
-/* line 242, ../sass/desktop.sass */
+/* line 244, ../sass/desktop.sass */
 .desktop-4 .desktop-2-forma-zakaza {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -17301,11 +17303,11 @@ address {
   margin-bottom: 70px;
   padding-top: 20px;
 }
-/* line 249, ../sass/desktop.sass */
+/* line 251, ../sass/desktop.sass */
 .desktop-4 .desktop-2-forma-zakaza input, .desktop-4 .desktop-2-forma-zakaza select {
   margin-bottom: 15px;
 }
-/* line 251, ../sass/desktop.sass */
+/* line 253, ../sass/desktop.sass */
 .desktop-4 .desktop-2-forma-zakaza .btn-absolute {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -17316,12 +17318,12 @@ address {
   top: 200px;
   left: 0px;
 }
-/* line 259, ../sass/desktop.sass */
+/* line 261, ../sass/desktop.sass */
 .desktop-4 .desktop-2-forma-zakaza .btn-absolute .btn {
   margin: 0px;
 }
 
-/* line 263, ../sass/desktop.sass */
+/* line 265, ../sass/desktop.sass */
 .desktop-4 .tell-friends {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -17332,47 +17334,47 @@ address {
   padding: 20px 30px;
   margin-bottom: 50px;
 }
-/* line 268, ../sass/desktop.sass */
+/* line 270, ../sass/desktop.sass */
 .desktop-4 .icons {
   margin-top: 50px;
   padding: 0 15px;
 }
-/* line 271, ../sass/desktop.sass */
+/* line 273, ../sass/desktop.sass */
 .desktop-4 .icons .icon {
   font-size: 1.5em;
   margin-left: 15px;
 }
 
 @media (max-width: 991px) {
-  /* line 276, ../sass/desktop.sass */
+  /* line 278, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza {
     position: relative;
     background-color: #e5e5e5;
   }
-  /* line 279, ../sass/desktop.sass */
+  /* line 281, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza .col-md-4 {
     padding-right: 15px;
   }
-  /* line 281, ../sass/desktop.sass */
+  /* line 283, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza .form-group {
     margin-bottom: 0px;
   }
-  /* line 283, ../sass/desktop.sass */
+  /* line 285, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza .control-label {
     width: 33%;
   }
-  /* line 285, ../sass/desktop.sass */
+  /* line 287, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza .form-control {
     width: 65%;
     display: inline-block;
     margin-right: 0px;
   }
-  /* line 289, ../sass/desktop.sass */
+  /* line 291, ../sass/desktop.sass */
   .desktop-4 .forma-zakaza #your-phone, .desktop-4 .forma-zakaza #your-name {
     width: 100%;
   }
 
-  /* line 291, ../sass/desktop.sass */
+  /* line 293, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17380,7 +17382,7 @@ address {
     margin-bottom: 80px;
     padding: 20px 0px 240px 0px;
   }
-  /* line 297, ../sass/desktop.sass */
+  /* line 299, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza .btn-absolute {
     width: 100%;
     border: none;
@@ -17390,119 +17392,120 @@ address {
     top: 240px;
     border-bottom: 1px solid #e5e5e5;
   }
-  /* line 305, ../sass/desktop.sass */
+  /* line 307, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza .btn-absolute .btn {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  /* line 309, ../sass/desktop.sass */
+  /* line 311, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza {
     padding: 20px 0px 115px 0px;
   }
-  /* line 311, ../sass/desktop.sass */
+  /* line 313, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza .btn-absolute {
     padding: 15px 20px;
     border-bottom: 1px solid #e5e5e5;
   }
-  /* line 314, ../sass/desktop.sass */
+  /* line 316, ../sass/desktop.sass */
   .desktop-4 .desktop-2-forma-zakaza .btn-absolute .btn {
     width: 100%;
   }
 }
-/* line 320, ../sass/desktop.sass */
+/* line 322, ../sass/desktop.sass */
 .desktop-4-houses-similar {
   background-color: #e5e5e5;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-/* line 325, ../sass/desktop.sass */
+/* line 327, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer {
   padding-bottom: 0px;
 }
-/* line 327, ../sass/desktop.sass */
+/* line 329, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer .btn {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-/* line 330, ../sass/desktop.sass */
+/* line 332, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer .md-margin {
   margin-left: 15px;
 }
 
 @media (max-width: 767px) {
-  /* line 335, ../sass/desktop.sass */
+  /* line 337, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer img {
     float: left;
     width: 85px;
     margin: 0 5px 10px 0;
   }
-  /* line 339, ../sass/desktop.sass */
+  /* line 341, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer .xs-padding {
     padding: 10px 10px 0px 15px;
   }
-  /* line 341, ../sass/desktop.sass */
+  /* line 343, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer .md-margin {
     margin-left: 0px;
   }
 }
-/* line 347, ../sass/desktop.sass */
+/* line 349, ../sass/desktop.sass */
 .desktop-4-footer {
   color: #6d6d6d;
 }
-/* line 349, ../sass/desktop.sass */
+/* line 351, ../sass/desktop.sass */
 .desktop-4-footer .icon {
   font-size: 1.5em;
   vertical-align: middle;
   line-height: 1.8em;
   color: #6d6d6d;
 }
-/* line 354, ../sass/desktop.sass */
+/* line 356, ../sass/desktop.sass */
 .desktop-4-footer .fontello-icon-twitter, .desktop-4-footer .fontello-icon-facebook {
   margin-right: 15px;
 }
 
-/* line 362, ../sass/desktop.sass */
+/* line 364, ../sass/desktop.sass */
 .desktop-5 .car {
   height: 120px;
   margin: 30px 0px 50px 0px;
 }
-/* line 365, ../sass/desktop.sass */
+/* line 367, ../sass/desktop.sass */
 .desktop-5 .car .car-info {
   padding-top: 15px;
 }
-/* line 367, ../sass/desktop.sass */
+/* line 369, ../sass/desktop.sass */
 .desktop-5 .car img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 371, ../sass/desktop.sass */
+/* line 373, ../sass/desktop.sass */
 .desktop-5 .uslugi {
+  margin-top: -50px;
   padding: 0px;
   margin-bottom: 30px;
 }
-/* line 374, ../sass/desktop.sass */
+/* line 377, ../sass/desktop.sass */
 .desktop-5 .uslugi .transfer {
   padding: 125px 0px;
   height: 425px;
 }
-/* line 377, ../sass/desktop.sass */
+/* line 380, ../sass/desktop.sass */
 .desktop-5 .uslugi .transfer p {
   font-size: 30px;
 }
 
-/* line 384, ../sass/desktop.sass */
+/* line 387, ../sass/desktop.sass */
 .desktop-5 .forma-zakaza {
   font-size: 13px;
 }
-/* line 386, ../sass/desktop.sass */
+/* line 389, ../sass/desktop.sass */
 .desktop-5 .forma-zakaza .form-control {
   width: 100%;
   font-size: 13px;
 }
 
-/* line 390, ../sass/desktop.sass */
+/* line 393, ../sass/desktop.sass */
 .desktop-5 .desktop-2-forma-zakaza {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -17512,11 +17515,11 @@ address {
   margin-bottom: 70px;
   padding-top: 20px;
 }
-/* line 397, ../sass/desktop.sass */
+/* line 400, ../sass/desktop.sass */
 .desktop-5 .desktop-2-forma-zakaza input, .desktop-5 .desktop-2-forma-zakaza select {
   margin-bottom: 15px;
 }
-/* line 399, ../sass/desktop.sass */
+/* line 402, ../sass/desktop.sass */
 .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -17527,12 +17530,16 @@ address {
   top: 240px;
   left: 0px;
 }
-/* line 407, ../sass/desktop.sass */
+/* line 410, ../sass/desktop.sass */
 .desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
   margin: 0px;
 }
 
-/* line 412, ../sass/desktop.sass */
+/* line 415, ../sass/desktop.sass */
+.desktop-5 .right-column .text-form {
+  margin-top: 30px;
+}
+/* line 417, ../sass/desktop.sass */
 .desktop-5 .tell-friends {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -17543,7 +17550,7 @@ address {
   padding: 15px 30px;
   margin-top: 30px;
 }
-/* line 417, ../sass/desktop.sass */
+/* line 422, ../sass/desktop.sass */
 .desktop-5 .icon {
   font-size: 1.5em;
   margin-left: 15px;
@@ -17551,74 +17558,72 @@ address {
 }
 
 @media (max-width: 991px) {
-  /* line 423, ../sass/desktop.sass */
+  /* line 428, ../sass/desktop.sass */
   .desktop-5 .uslugi .transfer {
     padding: 95px 0px;
-    height: 365px;
+    height: 315px;
   }
-  /* line 426, ../sass/desktop.sass */
+  /* line 431, ../sass/desktop.sass */
   .desktop-5 .uslugi .transfer p {
     font-size: 22px;
   }
 
-  /* line 429, ../sass/desktop.sass */
+  /* line 434, ../sass/desktop.sass */
   .desktop-5 .tell-friends {
     padding: 15px 5px;
   }
-  /* line 431, ../sass/desktop.sass */
+  /* line 436, ../sass/desktop.sass */
   .desktop-5 .icon {
     margin-left: 10px;
   }
 
-  /* line 433, ../sass/desktop.sass */
+  /* line 438, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza {
     background-color: #ededed;
     height: 300px;
   }
 
-  /* line 436, ../sass/desktop.sass */
+  /* line 441, ../sass/desktop.sass */
   .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
     top: 300px;
   }
 }
 @media (max-width: 767px) {
-  /* line 440, ../sass/desktop.sass */
-  .desktop-5 .uslugi {
-    margin-top: -45px;
-  }
-  /* line 442, ../sass/desktop.sass */
-  .desktop-5 .uslugi .transfer {
+  /* line 445, ../sass/desktop.sass */
+  .transfer {
     background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover;
-    padding-top: 50px;
+    padding-top: 70px;
     margin: 0px -15px;
-    height: 210px;
-    font-size: 20px;
+  }
+  /* line 449, ../sass/desktop.sass */
+  .transfer p {
+    font-size: 18px;
   }
 
-  /* line 448, ../sass/desktop.sass */
+  /* line 451, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza {
     background-color: #e5e5e5;
   }
-  /* line 450, ../sass/desktop.sass */
+  /* line 453, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza .form-group {
     margin-bottom: 0px;
   }
-  /* line 452, ../sass/desktop.sass */
+  /* line 455, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza .control-label {
     width: 33%;
   }
-  /* line 454, ../sass/desktop.sass */
+  /* line 457, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza .form-control {
     width: 65%;
     display: inline-block;
     margin-right: 0px;
   }
-  /* line 458, ../sass/desktop.sass */
+  /* line 461, ../sass/desktop.sass */
   .desktop-5 .forma-zakaza #your-phone, .desktop-5 .forma-zakaza #your-name {
     width: 100%;
   }
 
-  /* line 460, ../sass/desktop.sass */
+  /* line 463, ../sass/desktop.sass */
   .desktop-5 .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17626,7 +17631,7 @@ address {
     margin-bottom: 70px;
     padding: 20px 0px 40px 0px;
   }
-  /* line 466, ../sass/desktop.sass */
+  /* line 469, ../sass/desktop.sass */
   .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
     background-color: #e5e5e5;
     border: none;
@@ -17634,7 +17639,7 @@ address {
     top: 0px;
     padding: 0px 15px;
   }
-  /* line 472, ../sass/desktop.sass */
+  /* line 475, ../sass/desktop.sass */
   .desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }

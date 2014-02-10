@@ -3,7 +3,9 @@
 
 ////////destop1-search
 .menu-desktop
+  position: relative
   opacity: 0.9
+  z-index: 999
   .left-border
     border-left: 1px solid #81d35e
     line-height: 1.83em
@@ -369,6 +371,7 @@
     margin-right: 15px
 
 .desktop-5 .uslugi
+  margin-top: -50px
   padding: 0px
   margin-bottom: 30px
   .transfer
@@ -409,6 +412,8 @@
         
 
 .desktop-5
+  .right-column .text-form
+    margin-top: 30px
   .tell-friends
     @include border-radius(5px)
     border: 1px solid #e5e5e5
@@ -422,7 +427,7 @@
 @media (max-width: $screen-sm-max)
   .desktop-5 .uslugi .transfer
     padding: 95px 0px
-    height: 365px
+    height: 315px
     p
       font-size: 22px
   .desktop-5 
@@ -437,14 +442,12 @@
     top: 300px    
 
 @media (max-width: $screen-xs-max)
-  .desktop-5 .uslugi
-    margin-top: -45px
-    .transfer
-      background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover
-      padding-top: 50px
-      margin: 0px -15px
-      height: 210px
-      font-size: 20px 
+  .transfer
+    background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover
+    padding-top: 70px
+    margin: 0px -15px
+    p
+      font-size: 18px 
   .desktop-5 .forma-zakaza
     background-color: #e5e5e5
     .form-group
