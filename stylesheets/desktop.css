@@ -17400,3 +17400,181 @@ address {
 .desktop-4-footer .fontello-icon-twitter, .desktop-4-footer .fontello-icon-facebook {
   margin-right: 15px;
 }
+
+/* line 324, ../sass/desktop.sass */
+.desktop-5 .car {
+  height: 120px;
+  margin: 30px 0px 50px 0px;
+}
+/* line 327, ../sass/desktop.sass */
+.desktop-5 .car .car-info {
+  padding-top: 15px;
+}
+/* line 329, ../sass/desktop.sass */
+.desktop-5 .car img {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 333, ../sass/desktop.sass */
+.desktop-5 .uslugi {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+/* line 336, ../sass/desktop.sass */
+.desktop-5 .uslugi .transfer {
+  padding: 125px 0px;
+  height: 425px;
+}
+/* line 339, ../sass/desktop.sass */
+.desktop-5 .uslugi .transfer p {
+  font-size: 30px;
+}
+
+/* line 346, ../sass/desktop.sass */
+.desktop-5 .forma-zakaza {
+  font-size: 13px;
+}
+/* line 348, ../sass/desktop.sass */
+.desktop-5 .forma-zakaza .form-control {
+  width: 100%;
+  font-size: 13px;
+}
+
+/* line 352, ../sass/desktop.sass */
+.desktop-5 .desktop-2-forma-zakaza {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #ededed;
+  border: 1px solid #d9d9d9;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+}
+/* line 359, ../sass/desktop.sass */
+.desktop-5 .desktop-2-forma-zakaza input, .desktop-5 .desktop-2-forma-zakaza select {
+  margin-bottom: 15px;
+}
+/* line 361, ../sass/desktop.sass */
+.desktop-5 .desktop-2-forma-zakaza .btn-absolute {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  padding: 15px 20px;
+  top: 240px;
+  left: 0px;
+}
+/* line 369, ../sass/desktop.sass */
+.desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
+  margin: 0px;
+}
+
+/* line 374, ../sass/desktop.sass */
+.desktop-5 .tell-friends {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  padding: 15px 30px;
+  margin-top: 30px;
+}
+/* line 379, ../sass/desktop.sass */
+.desktop-5 .icon {
+  font-size: 1.5em;
+  margin-left: 15px;
+  color: #6d6d6d;
+}
+
+@media (max-width: 991px) {
+  /* line 385, ../sass/desktop.sass */
+  .desktop-5 .uslugi .transfer {
+    padding: 95px 0px;
+    height: 365px;
+  }
+  /* line 388, ../sass/desktop.sass */
+  .desktop-5 .uslugi .transfer p {
+    font-size: 22px;
+  }
+
+  /* line 391, ../sass/desktop.sass */
+  .desktop-5 .tell-friends {
+    padding: 15px 5px;
+  }
+  /* line 393, ../sass/desktop.sass */
+  .desktop-5 .icon {
+    margin-left: 10px;
+  }
+
+  /* line 395, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza {
+    background-color: #ededed;
+    height: 300px;
+  }
+
+  /* line 398, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
+    top: 300px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 402, ../sass/desktop.sass */
+  .desktop-5 .uslugi {
+    margin-top: -45px;
+  }
+  /* line 404, ../sass/desktop.sass */
+  .desktop-5 .uslugi .transfer {
+    background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover;
+    padding-top: 50px;
+    margin: 0px -15px;
+    height: 210px;
+    font-size: 20px;
+  }
+
+  /* line 410, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza {
+    background-color: #e5e5e5;
+  }
+  /* line 412, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza .form-group {
+    margin-bottom: 0px;
+  }
+  /* line 414, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza .control-label {
+    width: 33%;
+  }
+  /* line 416, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza .form-control {
+    width: 65%;
+    display: inline-block;
+    margin-right: 0px;
+  }
+  /* line 420, ../sass/desktop.sass */
+  .desktop-5 .forma-zakaza #your-phone, .desktop-5 .forma-zakaza #your-name {
+    width: 100%;
+  }
+
+  /* line 422, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza {
+    border: none;
+    background-color: #e5e5e5;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding: 20px 0px 40px 0px;
+  }
+  /* line 428, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
+    background-color: #e5e5e5;
+    border: none;
+    position: relative;
+    top: 0px;
+    padding: 0px 15px;
+  }
+  /* line 434, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
+    margin: 0px;
+  }
+}
