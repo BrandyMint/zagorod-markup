@@ -246,7 +246,7 @@
   margin-top: 20px  
   margin-bottom: 70px   
   padding-top: 20px
-  input
+  input, select
     margin-bottom: 15px  
   .btn-absolute
     @include border-bottom-radius(5px)
@@ -273,8 +273,46 @@
       margin-left: 15px  
 
 @media (max-width: $screen-sm-max)
-  .desktop-4 .forma-relative
-    margin-bottom: 70px
+  .desktop-4 .forma-zakaza
+    position: relative
+    background-color: #e5e5e5
+    .col-md-4
+      padding-right: 15px
+    .form-group
+      margin-bottom: 0px
+    .control-label
+      width: 33%
+    .form-control  
+      width:  65% 
+      display: inline-block
+      margin-right: 0px
+    #your-phone, #your-name
+      width: 100%       
+  .desktop-4 .desktop-2-forma-zakaza 
+    border: none
+    background-color: #E5E5E5
+    margin-top: 20px  
+    margin-bottom: 80px   
+    padding: 20px 0px 240px 0px
+    .btn-absolute
+      width: 100%
+      border: none
+      position: absolute
+      background-color: $color-white
+      padding: 15px 20px
+      top: 240px  
+      border-bottom: 1px solid #e5e5e5
+      .btn
+        width: 100%  
+
+@media (max-width: $screen-xs-max)           
+  .desktop-4 .desktop-2-forma-zakaza   
+    padding: 20px 0px 115px 0px
+    .btn-absolute
+      padding: 15px 20px 
+      border-bottom: 1px solid #e5e5e5
+      .btn
+        width: 100%   
 ////////////////////////////////////////////////end      
 
 /////////////////////////desktop-4-houses-similar
