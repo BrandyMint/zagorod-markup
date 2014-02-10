@@ -17590,13 +17590,13 @@ address {
 }
 @media (max-width: 767px) {
   /* line 445, ../sass/desktop.sass */
-  .transfer {
+  .uslugi .transfer {
     background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover;
     padding-top: 70px;
     margin: 0px -15px;
   }
   /* line 449, ../sass/desktop.sass */
-  .transfer p {
+  .uslugi .transfer p {
     font-size: 18px;
   }
 
@@ -17640,6 +17640,82 @@ address {
     padding: 0px 15px;
   }
   /* line 475, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
+    margin: 0px;
+  }
+}
+/* line 481, ../sass/desktop.sass */
+.desktop-6 .forma-zakaza {
+  height: 200px;
+  background-color: #ededed;
+}
+/* line 484, ../sass/desktop.sass */
+.desktop-6 .meat-recipe img {
+  width: 100%;
+}
+/* line 486, ../sass/desktop.sass */
+.desktop-6 .meat {
+  height: 425px;
+  padding: 125px 0px;
+}
+/* line 489, ../sass/desktop.sass */
+.desktop-6 .meat p {
+  font-size: 30px;
+}
+/* line 491, ../sass/desktop.sass */
+.desktop-6 .desktop-2-forma-zakaza .btn-absolute {
+  top: 180px;
+}
+
+@media (max-width: 991px) {
+  /* line 495, ../sass/desktop.sass */
+  .desktop-6 .uslugi .meat {
+    padding: 95px 0px;
+    height: 315px;
+  }
+  /* line 498, ../sass/desktop.sass */
+  .desktop-6 .uslugi .meat p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 502, ../sass/desktop.sass */
+  .desktop-6 .forma-zakaza {
+    background-color: #e5e5e5;
+  }
+  /* line 504, ../sass/desktop.sass */
+  .desktop-6 .forma-zakaza .form-control {
+    width: 100%;
+  }
+
+  /* line 506, ../sass/desktop.sass */
+  .uslugi .meat {
+    background: url("../img/mobile-3-small.png") no-repeat 0% 0%/cover;
+    padding-top: 70px;
+    margin: 0px -15px;
+  }
+  /* line 510, ../sass/desktop.sass */
+  .uslugi .meat p {
+    font-size: 18px;
+  }
+
+  /* line 512, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza {
+    border: none;
+    background-color: #e5e5e5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0px 0px 0px;
+  }
+  /* line 518, ../sass/desktop.sass */
+  .desktop-5 .desktop-2-forma-zakaza .btn-absolute {
+    background-color: #e5e5e5;
+    border: none;
+    position: relative;
+    top: 0px;
+    padding: 0px 15px;
+  }
+  /* line 524, ../sass/desktop.sass */
   .desktop-5 .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }
