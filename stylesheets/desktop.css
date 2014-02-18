@@ -17531,14 +17531,16 @@ address {
 /* line 405, ../sass/desktop.sass */
 .desktop-5-transfer .forma-zakaza {
   font-size: 13px;
+  padding: 0px 20px;
 }
-/* line 407, ../sass/desktop.sass */
+/* line 408, ../sass/desktop.sass */
 .desktop-5-transfer .forma-zakaza .form-control {
   width: 100%;
   font-size: 13px;
+  padding: 0px 20px;
 }
 
-/* line 411, ../sass/desktop.sass */
+/* line 413, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -17548,31 +17550,31 @@ address {
   margin-bottom: 70px;
   padding-top: 20px;
 }
-/* line 418, ../sass/desktop.sass */
+/* line 420, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza input, .desktop-5-transfer .desktop-2-forma-zakaza select {
   margin-bottom: 15px;
 }
-/* line 420, ../sass/desktop.sass */
+/* line 422, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   position: absolute;
   background-color: white;
   border: 1px solid #d9d9d9;
-  padding: 15px 20px;
+  padding: 15px 30px;
   top: 240px;
   left: 0px;
 }
-/* line 428, ../sass/desktop.sass */
+/* line 430, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
   margin: 0px;
 }
 
-/* line 433, ../sass/desktop.sass */
+/* line 435, ../sass/desktop.sass */
 .desktop-5-transfer .right-column .text-form {
   margin-top: 30px;
 }
-/* line 435, ../sass/desktop.sass */
+/* line 437, ../sass/desktop.sass */
 .desktop-5-transfer .tell-friends {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -17583,7 +17585,7 @@ address {
   padding: 15px 30px;
   margin-top: 30px;
 }
-/* line 440, ../sass/desktop.sass */
+/* line 442, ../sass/desktop.sass */
 .desktop-5-transfer .icon {
   font-size: 1.5em;
   margin-left: 15px;
@@ -17591,72 +17593,72 @@ address {
 }
 
 @media (max-width: 991px) {
-  /* line 446, ../sass/desktop.sass */
+  /* line 448, ../sass/desktop.sass */
   .desktop-5-transfer .uslugi .transfer {
     padding: 95px 0px;
     height: 315px;
   }
-  /* line 449, ../sass/desktop.sass */
+  /* line 451, ../sass/desktop.sass */
   .desktop-5-transfer .uslugi .transfer p {
     font-size: 22px;
   }
 
-  /* line 452, ../sass/desktop.sass */
+  /* line 454, ../sass/desktop.sass */
   .desktop-5-transfer .tell-friends {
     padding: 15px 5px;
   }
-  /* line 454, ../sass/desktop.sass */
+  /* line 456, ../sass/desktop.sass */
   .desktop-5-transfer .icon {
     margin-left: 10px;
   }
 
-  /* line 456, ../sass/desktop.sass */
+  /* line 458, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza {
     background-color: #ededed;
     height: 300px;
   }
 
-  /* line 459, ../sass/desktop.sass */
+  /* line 461, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     top: 300px;
   }
 }
 @media (max-width: 767px) {
-  /* line 463, ../sass/desktop.sass */
+  /* line 465, ../sass/desktop.sass */
   .uslugi .transfer {
     background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover;
     padding-top: 70px;
     margin: 0px -15px;
   }
-  /* line 467, ../sass/desktop.sass */
+  /* line 469, ../sass/desktop.sass */
   .uslugi .transfer p {
     font-size: 18px;
   }
 
-  /* line 469, ../sass/desktop.sass */
+  /* line 471, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza {
     background-color: #e5e5e5;
   }
-  /* line 471, ../sass/desktop.sass */
+  /* line 473, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .form-group {
     margin-bottom: 0px;
   }
-  /* line 473, ../sass/desktop.sass */
+  /* line 475, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .control-label {
     width: 33%;
   }
-  /* line 475, ../sass/desktop.sass */
+  /* line 477, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .form-control {
     width: 65%;
     display: inline-block;
     margin-right: 0px;
   }
-  /* line 479, ../sass/desktop.sass */
+  /* line 481, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza #your-phone, .desktop-5-transfer .forma-zakaza #your-name {
     width: 100%;
   }
 
-  /* line 481, ../sass/desktop.sass */
+  /* line 483, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17664,7 +17666,7 @@ address {
     margin-bottom: 70px;
     padding: 20px 0px 40px 0px;
   }
-  /* line 487, ../sass/desktop.sass */
+  /* line 489, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     background-color: #e5e5e5;
     border: none;
@@ -17672,67 +17674,73 @@ address {
     top: 0px;
     padding: 0px 15px;
   }
-  /* line 493, ../sass/desktop.sass */
+  /* line 495, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }
 }
-/* line 499, ../sass/desktop.sass */
+/* line 501, ../sass/desktop.sass */
 .desktop-6-meat .forma-zakaza {
   height: 200px;
   background-color: #ededed;
+  padding: 0px 20px;
 }
-/* line 502, ../sass/desktop.sass */
+/* line 505, ../sass/desktop.sass */
 .desktop-6-meat .meat-recipe img {
   width: 100%;
 }
-/* line 504, ../sass/desktop.sass */
+/* line 507, ../sass/desktop.sass */
 .desktop-6-meat .meat {
   height: 425px;
   padding: 125px 0px;
 }
-/* line 507, ../sass/desktop.sass */
+/* line 510, ../sass/desktop.sass */
 .desktop-6-meat .meat p {
-  font-size: 30px;
+  font-size: 36px;
 }
-/* line 509, ../sass/desktop.sass */
+/* line 512, ../sass/desktop.sass */
+.desktop-6-meat .meat a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* line 515, ../sass/desktop.sass */
 .desktop-6-meat .desktop-2-forma-zakaza .btn-absolute {
   top: 180px;
 }
 
 @media (max-width: 991px) {
-  /* line 513, ../sass/desktop.sass */
+  /* line 519, ../sass/desktop.sass */
   .desktop-6-meat .uslugi .meat {
     padding: 95px 0px;
     height: 315px;
   }
-  /* line 516, ../sass/desktop.sass */
+  /* line 522, ../sass/desktop.sass */
   .desktop-6-meat .uslugi .meat p {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  /* line 520, ../sass/desktop.sass */
+  /* line 526, ../sass/desktop.sass */
   .desktop-6-meat .forma-zakaza {
     background-color: #e5e5e5;
   }
-  /* line 522, ../sass/desktop.sass */
+  /* line 528, ../sass/desktop.sass */
   .desktop-6-meat .forma-zakaza .form-control {
     width: 100%;
   }
 
-  /* line 524, ../sass/desktop.sass */
+  /* line 530, ../sass/desktop.sass */
   .uslugi .meat {
     background: url("../img/mobile-3-small.png") no-repeat 0% 0%/cover;
     padding-top: 70px;
     margin: 0px -15px;
   }
-  /* line 528, ../sass/desktop.sass */
+  /* line 534, ../sass/desktop.sass */
   .uslugi .meat p {
     font-size: 18px;
   }
 
-  /* line 530, ../sass/desktop.sass */
+  /* line 536, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17740,7 +17748,7 @@ address {
     margin-bottom: 30px;
     padding: 20px 0px 0px 0px;
   }
-  /* line 536, ../sass/desktop.sass */
+  /* line 542, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     background-color: #e5e5e5;
     border: none;
@@ -17748,7 +17756,7 @@ address {
     top: 0px;
     padding: 0px 15px;
   }
-  /* line 542, ../sass/desktop.sass */
+  /* line 548, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }
