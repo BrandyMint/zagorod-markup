@@ -4,10 +4,10 @@
 ////////destop1-search
 .menu-desktop
   position: relative
-  opacity: 0.9
-  z-index: 999
+  opacity: $opacity-min
+  z-index: $z-index-max
   .left-border
-    border-left: 1px solid #81d35e
+    border-left: $border-min solid #81d35e
     line-height: 1.83em
     span
       padding-left: 10px
@@ -145,7 +145,7 @@
 
 ////////////desktop2-houses
 .desktop1-houses
-  border-top: 1px solid #D5D5D5
+  border-top: $border-min solid #D5D5D5
 //////////////end
 
 ///////////////desktop-3 filter
@@ -182,7 +182,7 @@
   .desktop-3
     .forma-zakaza
       padding-top: 10px
-      border-top: 1px solid #cecece
+      border-top: $border-min solid #cecece
       .absolute
         margin-top: 0px 
 
@@ -242,19 +242,19 @@
     font-size: 13px  
 
 .desktop-4 .desktop-2-forma-zakaza 
-  @include border-top-radius(5px)
+  @include border-top-radius($border-radius)
   background-color: #EDEDED
-  border: 1px solid #d9d9d9
+  border: $border-min solid #d9d9d9
   margin-top: 20px  
   margin-bottom: 70px   
   padding-top: 20px
   input, select
     margin-bottom: 15px  
   .btn-absolute
-    @include border-bottom-radius(5px)
+    @include border-bottom-radius($border-radius)
     position: absolute
     background-color: $color-white
-    border: 1px solid #d9d9d9
+    border: $border-min solid #d9d9d9
     padding: 15px 20px
     top: 200px
     left: 0px
@@ -263,8 +263,8 @@
 
 .desktop-4 
   .tell-friends
-    @include border-radius(5px)
-    border: 1px solid #e5e5e5
+    @include border-radius($border-radius)
+    border: $border-min solid #e5e5e5
     padding: 20px 30px
     margin-bottom: 50px
   .icons
@@ -303,7 +303,7 @@
       background-color: $color-white
       padding: 15px 20px
       top: 240px  
-      border-bottom: 1px solid #e5e5e5
+      border-bottom: $border-min solid #e5e5e5
       .btn
         width: 100%  
 
@@ -312,7 +312,7 @@
     padding: 20px 0px 115px 0px
     .btn-absolute
       padding: 15px 20px 
-      border-bottom: 1px solid #e5e5e5
+      border-bottom: $border-min solid #e5e5e5
       .btn
         width: 100%   
 ////////////////////////////////////////////////end      
@@ -360,8 +360,8 @@
 ///////////////////////////end
 
 
-////////////////desktop-5 left-column
-.desktop-5 .car
+////////////////desktop-5 transferleft-column
+.desktop-5-transfer .car
   height: 120px
   margin: 30px 0px 50px 0px
   .car-info
@@ -370,13 +370,13 @@
     float: left
     margin-right: 15px
 
-.desktop-5 .uslugi
+.desktop-5-transfer .uslugi
   margin-top: -50px
   padding: 0px
   margin-bottom: 30px
   .transfer
     padding: 125px 0px
-    height: 425px
+    height: $height-md
     p
       font-size: 30px
 
@@ -384,26 +384,26 @@
 
 ///////////////////desktop-5 right-column formazakaza
 
-.desktop-5 .forma-zakaza
+.desktop-5-transfer .forma-zakaza
   font-size: 13px
   .form-control
     width: 100%
     font-size: 13px  
 
-.desktop-5 .desktop-2-forma-zakaza 
-  @include border-top-radius(5px)
+.desktop-5-transfer .desktop-2-forma-zakaza 
+  @include border-top-radius($border-radius)
   background-color: #EDEDED
-  border: 1px solid #d9d9d9
+  border: $border-min solid #d9d9d9
   margin-top: 20px  
   margin-bottom: 70px   
   padding-top: 20px
   input, select
     margin-bottom: 15px  
   .btn-absolute
-    @include border-bottom-radius(5px)
+    @include border-bottom-radius($border-radius)
     position: absolute
     background-color: $color-white
-    border: 1px solid #d9d9d9
+    border: $border-min solid #d9d9d9
     padding: 15px 20px
     top: 240px
     left: 0px
@@ -411,12 +411,12 @@
       margin: 0px 
         
 
-.desktop-5
+.desktop-5-transfer
   .right-column .text-form
     margin-top: 30px
   .tell-friends
-    @include border-radius(5px)
-    border: 1px solid #e5e5e5
+    @include border-radius($border-radius)
+    border: $border-min solid #e5e5e5
     padding: 15px 30px
     margin-top: 30px
   .icon
@@ -425,20 +425,20 @@
     color: $color-footer 
 
 @media (max-width: $screen-sm-max)
-  .desktop-5 .uslugi .transfer
+  .desktop-5-transfer .uslugi .transfer
     padding: 95px 0px
-    height: 315px
+    height: $height-sm
     p
       font-size: 22px
-  .desktop-5 
+  .desktop-5-transfer
     .tell-friends
       padding: 15px 5px
     .icon
       margin-left: 10px  
-  .desktop-5 .forma-zakaza
+  .desktop-5-transfer .forma-zakaza
     background-color: #ededed
     height: 300px
-  .desktop-5 .desktop-2-forma-zakaza .btn-absolute
+  .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute
     top: 300px    
 
 @media (max-width: $screen-xs-max)
@@ -448,7 +448,7 @@
     margin: 0px -15px
     p
       font-size: 18px 
-  .desktop-5 .forma-zakaza
+  .desktop-5-transfer .forma-zakaza
     background-color: #e5e5e5
     .form-group
       margin-bottom: 0px
@@ -460,7 +460,7 @@
       margin-right: 0px
     #your-phone, #your-name
       width: 100%       
-  .desktop-5 .desktop-2-forma-zakaza 
+  .desktop-5-transfer .desktop-2-forma-zakaza 
     border: none
     background-color: #E5E5E5
     margin-top: 20px  
@@ -476,15 +476,15 @@
         margin: 0px    
 /////////////////////////////////////end
 
-/////////////////////////desktop-6
-.desktop-6
+/////////////////////////desktop-6  meat
+.desktop-6-meat
   .forma-zakaza
     height: 200px
     background-color: #ededed
   .meat-recipe img
     width: 100% 
   .meat
-    height: 425px
+    height: $height-md
     padding: 125px 0px
     p
       font-size: 30px
@@ -492,14 +492,14 @@
     top: 180px       
 
 @media (max-width: $screen-sm-max)
-  .desktop-6 .uslugi .meat
+  .desktop-6-meat .uslugi .meat
     padding: 95px 0px
-    height: 315px
+    height: $height-sm
     p
       font-size: 22px 
 
 @media (max-width: $screen-xs-max)
-  .desktop-6 .forma-zakaza 
+  .desktop-6-meat .forma-zakaza 
     background-color: #e5e5e5
     .form-control
       width: 100%
@@ -509,7 +509,7 @@
     margin: 0px -15px
     p
       font-size: 18px      
-  .desktop-5 .desktop-2-forma-zakaza 
+  .desktop-5-transfer .desktop-2-forma-zakaza 
     border: none
     background-color: #E5E5E5
     margin-top: 20px  

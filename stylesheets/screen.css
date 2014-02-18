@@ -16179,27 +16179,27 @@ a, a:hover, a:visited {
 }
 
 /* line 22, ../sass/_utilities.sass */
-.size-0-8 {
+.font-size-0-8em {
   font-size: 0.8em;
 }
 
 /* line 25, ../sass/_utilities.sass */
-.size-0-9 {
+.font-size-0-9em {
   font-size: 0.9em;
 }
 
 /* line 28, ../sass/_utilities.sass */
-.size-1-5 {
+.font-size-1-5em {
   font-size: 1.5em;
 }
 
 /* line 31, ../sass/_utilities.sass */
-.size-1-2 {
+.font-size-1-2em {
   font-size: 1.2em;
 }
 
 /* line 34, ../sass/_utilities.sass */
-.size-1-1 {
+.font-size-1-1em {
   font-size: 1.1em;
 }
 
@@ -16214,25 +16214,20 @@ a, a:hover, a:visited {
 }
 
 /* line 43, ../sass/_utilities.sass */
-.font-bold {
-  font-weight: bold;
-}
-
-/* line 46, ../sass/_utilities.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 49, ../sass/_utilities.sass */
+/* line 46, ../sass/_utilities.sass */
 .btn-success {
   background-color: #50b848;
 }
 
-/* line 52, ../sass/_utilities.sass */
+/* line 49, ../sass/_utilities.sass */
 .forma-relative {
   position: relative;
 }
-/* line 54, ../sass/_utilities.sass */
+/* line 51, ../sass/_utilities.sass */
 .forma-relative .btn {
   position: absolute;
   top: 35px;
