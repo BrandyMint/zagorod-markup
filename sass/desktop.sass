@@ -7,7 +7,7 @@
   opacity: $opacity-min
   z-index: $z-index-max
   .left-border
-    border-left: $border-min solid #81d35e
+    border-left: $border-min solid $light-green
     line-height: 1.83em
     span
       padding-left: 10px
@@ -203,7 +203,9 @@
   .basa-info
     margin:
       top: 40px
-      bottom: 30px  
+      bottom: 30px
+  .extra-info p
+    padding-top: 10px
 
 .desktop-4 .udobstva
   padding-left: 15px
@@ -216,8 +218,17 @@
   .desktop-4 .left-column
     .switch
       margin: 0px -15px
+    .photos
+      padding-right: 15px 
+  .desktop-4 .udobstva li
+    margin-right: 15px
+    width: 200px
+    font-size: 13px       
 
 @media (max-width: $screen-xs-max)
+  .desktop-4 .left-column
+    .photos
+      padding-right: 0px
   .desktop-4 .udobstva li
     margin-right: 17px
     width: 120px
@@ -265,47 +276,50 @@
   .tell-friends
     @include border-radius($border-radius)
     border: $border-min solid #e5e5e5
-    padding: 20px 30px
-    margin-bottom: 50px
-  .icons
+    padding: 15px 30px
     margin-top: 50px
-    padding: 0 15px
     .icon
       font-size: 1.5em
-      margin-left: 15px  
+      margin-left: 15px
+  .info-text
+    padding: 25px 30px  
 
-@media (max-width: $screen-sm-max)
+@media (max-width: $screen-sm-max)  
   .desktop-4 .forma-zakaza
     position: relative
     background-color: #e5e5e5
     .col-md-4
       padding-right: 15px
-    .form-group
-      margin-bottom: 0px
     .control-label
       width: 33%
     .form-control  
       width:  65% 
-      display: inline-block
       margin-right: 0px
     #your-phone, #your-name
-      width: 100%       
+      width: 100% 
   .desktop-4 .desktop-2-forma-zakaza 
-    border: none
-    background-color: #E5E5E5
     margin-top: 20px  
     margin-bottom: 80px   
     padding: 20px 0px 240px 0px
     .btn-absolute
       width: 100%
-      border: none
       position: absolute
       background-color: $color-white
       padding: 15px 20px
       top: 240px  
       border-bottom: $border-min solid #e5e5e5
       .btn
-        width: 100%  
+        width: 100%               
+
+@media (max-width: $screen-xs-max)
+  .desktop-4 .forma-zakaza
+    .form-group
+      margin-bottom: 0px
+    .form-control  
+      display: inline-block     
+  .desktop-4 .desktop-2-forma-zakaza 
+    border: none
+    background-color: #E5E5E5
 
 @media (max-width: $screen-xs-max)           
   .desktop-4 .desktop-2-forma-zakaza   
@@ -320,7 +334,7 @@
 /////////////////////////desktop-4-houses-similar
 
 .desktop-4-houses-similar
-  background-color: $color-forma
+  background-color: #F2F2F2
   padding:
     top: 30px
     bottom: 20px
@@ -333,6 +347,8 @@
       margin-left: 15px  
 
 @media (max-width: $screen-xs-max)
+  .desktop-4-houses-similar
+    background-color: $color-forma
   .desktop-4-houses-similar .house-offer
     img
       float: left
@@ -347,14 +363,13 @@
 
 /////////////////////desktop-4-footer
 .desktop-4-footer
-  color: $color-footer
   .icon
     font-size: 1.5em
     vertical-align: middle
     line-height: 1.8em
     color: $color-footer
   .fontello-icon-twitter, .fontello-icon-facebook
-    margin-right: 15px
+    margin-right: 15px   
 
 
 ///////////////////////////end

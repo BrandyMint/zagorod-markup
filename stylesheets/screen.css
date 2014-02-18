@@ -16209,25 +16209,30 @@ a, a:hover, a:visited {
 }
 
 /* line 40, ../sass/_utilities.sass */
+.light-green {
+  color: #b3e0af;
+}
+
+/* line 43, ../sass/_utilities.sass */
 .line-height-1-43 {
   line-height: 1.43em;
 }
 
-/* line 43, ../sass/_utilities.sass */
+/* line 46, ../sass/_utilities.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 46, ../sass/_utilities.sass */
+/* line 49, ../sass/_utilities.sass */
 .btn-success {
   background-color: #50b848;
 }
 
-/* line 49, ../sass/_utilities.sass */
+/* line 52, ../sass/_utilities.sass */
 .forma-relative {
   position: relative;
 }
-/* line 51, ../sass/_utilities.sass */
+/* line 54, ../sass/_utilities.sass */
 .forma-relative .btn {
   position: absolute;
   top: 35px;
