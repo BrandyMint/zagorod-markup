@@ -16526,32 +16526,31 @@ input[type="checkbox"]:checked + .checkbox span {
 /* line 248, ../sass/screen.sass */
 .mobile-3 .forma-zakaza {
   padding-top: 10px;
-  border-top: 1px solid #cecece;
 }
-/* line 251, ../sass/screen.sass */
+/* line 250, ../sass/screen.sass */
 .mobile-3 .filter {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 259, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .mobile-5 .uslugi {
   padding: 0px;
   margin-top: -42px;
 }
-/* line 262, ../sass/screen.sass */
+/* line 261, ../sass/screen.sass */
 .mobile-5 .uslugi .transfer {
   padding-top: 50px;
   margin: 0px;
   height: 210px;
 }
 
-/* line 267, ../sass/screen.sass */
+/* line 266, ../sass/screen.sass */
 .mobile-5 .header-menu {
   opacity: 0.9;
 }
 
-/* line 270, ../sass/screen.sass */
+/* line 269, ../sass/screen.sass */
 .mobile-5 .forma-zakaza {
   padding-top: 20px;
   padding-bottom: 20px;

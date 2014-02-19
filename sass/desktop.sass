@@ -149,7 +149,10 @@
 //////////////end
 
 ///////////////desktop-3 filter
-.desktop-3
+.desktop-3-forma
+  border-top: $border-min solid #D5D5D5
+
+.desktop-3-filter
   .forma-zakaza
     position: relative
     margin-bottom: 30px
@@ -173,13 +176,23 @@
 //////end
 ///////desktop3 filter
 @media (min-width: $screen-md-min)
-  .desktop-3  .filter  .btn-xs
+  .desktop-3-filter  .filter  .btn-xs
     margin-left: -70px
 
 @media (max-width: $screen-xs-max)
+  .visible-xs 
+    #price-day
+      margin-bottom: 15px
+    .checkbox
+      margin: 0px
+      padding-top: 0px
+  .desktop-3-forma
+    border-top: none
+    border-bottom: $border-min solid #D5D5D5
+    padding-bottom: 45px
   .col-xs-5 .btn-xs
     float: right
-  .desktop-3
+  .desktop-3-filter
     .forma-zakaza
       padding-top: 10px
       border-top: $border-min solid #cecece

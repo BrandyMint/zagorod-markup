@@ -16526,32 +16526,31 @@ input[type="checkbox"]:checked + .checkbox span {
 /* line 248, ../sass/screen.sass */
 .mobile-3 .forma-zakaza {
   padding-top: 10px;
-  border-top: 1px solid #cecece;
 }
-/* line 251, ../sass/screen.sass */
+/* line 250, ../sass/screen.sass */
 .mobile-3 .filter {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 259, ../sass/screen.sass */
+/* line 258, ../sass/screen.sass */
 .mobile-5 .uslugi {
   padding: 0px;
   margin-top: -42px;
 }
-/* line 262, ../sass/screen.sass */
+/* line 261, ../sass/screen.sass */
 .mobile-5 .uslugi .transfer {
   padding-top: 50px;
   margin: 0px;
   height: 210px;
 }
 
-/* line 267, ../sass/screen.sass */
+/* line 266, ../sass/screen.sass */
 .mobile-5 .header-menu {
   opacity: 0.9;
 }
 
-/* line 270, ../sass/screen.sass */
+/* line 269, ../sass/screen.sass */
 .mobile-5 .forma-zakaza {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -17177,30 +17176,35 @@ address {
   border-top: 1px solid #d5d5d5;
 }
 
-/* line 153, ../sass/desktop.sass */
-.desktop-3 .forma-zakaza {
+/* line 152, ../sass/desktop.sass */
+.desktop-3-forma {
+  border-top: 1px solid #d5d5d5;
+}
+
+/* line 156, ../sass/desktop.sass */
+.desktop-3-filter .forma-zakaza {
   position: relative;
   margin-bottom: 30px;
 }
-/* line 156, ../sass/desktop.sass */
-.desktop-3 .forma-zakaza .absolute {
+/* line 159, ../sass/desktop.sass */
+.desktop-3-filter .forma-zakaza .absolute {
   position: absolute;
   margin-top: 40px;
 }
-/* line 159, ../sass/desktop.sass */
-.desktop-3 .forma-zakaza .group-checkbox {
+/* line 162, ../sass/desktop.sass */
+.desktop-3-filter .forma-zakaza .group-checkbox {
   margin-top: 25px;
 }
-/* line 161, ../sass/desktop.sass */
-.desktop-3 .checkbox {
+/* line 164, ../sass/desktop.sass */
+.desktop-3-filter .checkbox {
   margin: 5px 0px;
 }
-/* line 163, ../sass/desktop.sass */
-.desktop-3 label {
+/* line 166, ../sass/desktop.sass */
+.desktop-3-filter label {
   font-size: 13px;
 }
 
-/* line 169, ../sass/desktop.sass */
+/* line 172, ../sass/desktop.sass */
 .desktop3-houses {
   margin-top: 70px;
   padding-bottom: 20px;
@@ -17208,52 +17212,69 @@ address {
 }
 
 @media (min-width: 992px) {
-  /* line 176, ../sass/desktop.sass */
-  .desktop-3 .filter .btn-xs {
+  /* line 179, ../sass/desktop.sass */
+  .desktop-3-filter .filter .btn-xs {
     margin-left: -70px;
   }
 }
 @media (max-width: 767px) {
-  /* line 180, ../sass/desktop.sass */
+  /* line 184, ../sass/desktop.sass */
+  .visible-xs #price-day {
+    margin-bottom: 15px;
+  }
+  /* line 186, ../sass/desktop.sass */
+  .visible-xs .checkbox {
+    margin: 0px;
+    padding-top: 0px;
+  }
+
+  /* line 189, ../sass/desktop.sass */
+  .desktop-3-forma {
+    border-top: none;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 45px;
+  }
+
+  /* line 193, ../sass/desktop.sass */
   .col-xs-5 .btn-xs {
     float: right;
   }
 
-  /* line 183, ../sass/desktop.sass */
-  .desktop-3 .forma-zakaza {
+  /* line 196, ../sass/desktop.sass */
+  .desktop-3-filter .forma-zakaza {
     padding-top: 10px;
     border-top: 1px solid #cecece;
   }
-  /* line 186, ../sass/desktop.sass */
-  .desktop-3 .forma-zakaza .absolute {
+  /* line 199, ../sass/desktop.sass */
+  .desktop-3-filter .forma-zakaza .absolute {
     margin-top: 0px;
   }
 }
-/* line 194, ../sass/desktop.sass */
+/* line 207, ../sass/desktop.sass */
 .desktop-4-dom .switch, .desktop-4-dom .slider {
   margin: 0px;
 }
 
-/* line 199, ../sass/desktop.sass */
+/* line 212, ../sass/desktop.sass */
 .desktop-4-dom .left-column {
   padding-top: 20px;
   padding-bottom: 60px;
 }
-/* line 203, ../sass/desktop.sass */
+/* line 216, ../sass/desktop.sass */
 .desktop-4-dom .left-column .basa-info {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-/* line 207, ../sass/desktop.sass */
+/* line 220, ../sass/desktop.sass */
 .desktop-4-dom .left-column .extra-info p {
   padding-top: 10px;
 }
 
-/* line 210, ../sass/desktop.sass */
+/* line 223, ../sass/desktop.sass */
 .desktop-4-dom .udobstva {
   padding-left: 15px;
 }
-/* line 212, ../sass/desktop.sass */
+/* line 225, ../sass/desktop.sass */
 .desktop-4-dom .udobstva li {
   float: left;
   width: 240px;
@@ -17261,16 +17282,16 @@ address {
 }
 
 @media (max-width: 991px) {
-  /* line 219, ../sass/desktop.sass */
+  /* line 232, ../sass/desktop.sass */
   .desktop-4-dom .left-column .switch {
     margin: 0px -15px;
   }
-  /* line 221, ../sass/desktop.sass */
+  /* line 234, ../sass/desktop.sass */
   .desktop-4-dom .left-column .photos {
     padding-right: 15px;
   }
 
-  /* line 223, ../sass/desktop.sass */
+  /* line 236, ../sass/desktop.sass */
   .desktop-4-dom .udobstva li {
     margin-right: 15px;
     width: 200px;
@@ -17278,64 +17299,64 @@ address {
   }
 }
 @media (max-width: 767px) {
-  /* line 229, ../sass/desktop.sass */
+  /* line 242, ../sass/desktop.sass */
   .desktop-4-dom .left-column {
     padding-bottom: 20px;
   }
-  /* line 231, ../sass/desktop.sass */
+  /* line 244, ../sass/desktop.sass */
   .desktop-4-dom .left-column .price {
     margin-top: 15px;
   }
-  /* line 233, ../sass/desktop.sass */
+  /* line 246, ../sass/desktop.sass */
   .desktop-4-dom .left-column .basa-info {
     font-size: 13px;
     margin-top: 20px;
   }
-  /* line 236, ../sass/desktop.sass */
+  /* line 249, ../sass/desktop.sass */
   .desktop-4-dom .left-column .extra-info {
     border-top: 2px solid #d9d9d9;
   }
-  /* line 238, ../sass/desktop.sass */
+  /* line 251, ../sass/desktop.sass */
   .desktop-4-dom .left-column .extra-info .gray-color {
     font-size: 11px;
   }
-  /* line 240, ../sass/desktop.sass */
+  /* line 253, ../sass/desktop.sass */
   .desktop-4-dom .left-column .photos {
     padding-right: 0px;
   }
 
-  /* line 242, ../sass/desktop.sass */
+  /* line 255, ../sass/desktop.sass */
   .desktop-4-dom .udobstva li {
     margin-right: 17px;
     width: 120px;
     font-size: 13px;
   }
 }
-/* line 251, ../sass/desktop.sass */
+/* line 264, ../sass/desktop.sass */
 .desktop-4-dom .right-column {
   padding-top: 60px;
 }
-/* line 253, ../sass/desktop.sass */
+/* line 266, ../sass/desktop.sass */
 .desktop-4-dom .right-column .price-day {
   padding-left: 30px;
 }
 
-/* line 257, ../sass/desktop.sass */
+/* line 270, ../sass/desktop.sass */
 .desktop-4-dom .forma-zakaza {
   font-size: 13px;
   padding: 0px 15px;
 }
-/* line 260, ../sass/desktop.sass */
+/* line 273, ../sass/desktop.sass */
 .desktop-4-dom .forma-zakaza .col-md-4 {
   padding-right: 0px;
 }
-/* line 262, ../sass/desktop.sass */
+/* line 275, ../sass/desktop.sass */
 .desktop-4-dom .forma-zakaza .form-control {
   width: 100%;
   font-size: 13px;
 }
 
-/* line 266, ../sass/desktop.sass */
+/* line 279, ../sass/desktop.sass */
 .desktop-4-dom .desktop-2-forma-zakaza {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -17345,11 +17366,11 @@ address {
   margin-bottom: 70px;
   padding-top: 20px;
 }
-/* line 273, ../sass/desktop.sass */
+/* line 286, ../sass/desktop.sass */
 .desktop-4-dom .desktop-2-forma-zakaza input, .desktop-4-dom .desktop-2-forma-zakaza select {
   margin-bottom: 15px;
 }
-/* line 275, ../sass/desktop.sass */
+/* line 288, ../sass/desktop.sass */
 .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -17360,12 +17381,12 @@ address {
   top: 200px;
   left: 0px;
 }
-/* line 283, ../sass/desktop.sass */
+/* line 296, ../sass/desktop.sass */
 .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute .btn {
   margin: 0px;
 }
 
-/* line 287, ../sass/desktop.sass */
+/* line 300, ../sass/desktop.sass */
 .desktop-4-dom .tell-friends {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -17376,48 +17397,48 @@ address {
   padding: 15px 30px;
   margin-top: 50px;
 }
-/* line 292, ../sass/desktop.sass */
+/* line 305, ../sass/desktop.sass */
 .desktop-4-dom .tell-friends .icon {
   font-size: 1.5em;
   margin-left: 15px;
 }
-/* line 295, ../sass/desktop.sass */
+/* line 308, ../sass/desktop.sass */
 .desktop-4-dom .info-text {
   padding: 25px 30px;
 }
 
 @media (max-width: 991px) {
-  /* line 299, ../sass/desktop.sass */
+  /* line 312, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza {
     position: relative;
     background-color: #e5e5e5;
     padding: 0px;
   }
-  /* line 303, ../sass/desktop.sass */
+  /* line 316, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza .col-md-4 {
     padding-right: 15px;
   }
-  /* line 305, ../sass/desktop.sass */
+  /* line 318, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza .control-label {
     width: 20%;
   }
-  /* line 307, ../sass/desktop.sass */
+  /* line 320, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza .form-control {
     width: 78%;
     margin-right: 0px;
   }
-  /* line 310, ../sass/desktop.sass */
+  /* line 323, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza #your-phone, .desktop-4-dom .forma-zakaza #your-name {
     width: 100%;
   }
 
-  /* line 312, ../sass/desktop.sass */
+  /* line 325, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza {
     margin-top: 20px;
     margin-bottom: 80px;
     padding: 20px 0px 240px 0px;
   }
-  /* line 316, ../sass/desktop.sass */
+  /* line 329, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute {
     width: 100%;
     position: absolute;
@@ -17426,40 +17447,40 @@ address {
     top: 240px;
     border-bottom: 1px solid #e5e5e5;
   }
-  /* line 323, ../sass/desktop.sass */
+  /* line 336, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute .btn {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  /* line 327, ../sass/desktop.sass */
+  /* line 340, ../sass/desktop.sass */
   .desktop-4-dom .right-column {
     padding-top: 0px;
   }
 
-  /* line 330, ../sass/desktop.sass */
+  /* line 343, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza .form-group {
     margin-bottom: 0px;
   }
-  /* line 332, ../sass/desktop.sass */
+  /* line 345, ../sass/desktop.sass */
   .desktop-4-dom .forma-zakaza .form-control {
     display: inline-block;
   }
 
-  /* line 334, ../sass/desktop.sass */
+  /* line 347, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
   }
 }
 @media (max-width: 767px) {
-  /* line 339, ../sass/desktop.sass */
+  /* line 352, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     padding: 20px 0px 115px 0px;
   }
-  /* line 342, ../sass/desktop.sass */
+  /* line 355, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -17467,132 +17488,132 @@ address {
     border-bottom: 1px solid #e5e5e5;
     border-top: none;
   }
-  /* line 347, ../sass/desktop.sass */
+  /* line 360, ../sass/desktop.sass */
   .desktop-4-dom .desktop-2-forma-zakaza .btn-absolute .btn {
     width: 100%;
   }
 }
-/* line 353, ../sass/desktop.sass */
+/* line 366, ../sass/desktop.sass */
 .desktop-4-houses-similar {
   background-color: #f2f2f2;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-/* line 358, ../sass/desktop.sass */
+/* line 371, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer {
   padding-bottom: 0px;
 }
-/* line 360, ../sass/desktop.sass */
+/* line 373, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer .btn {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-/* line 363, ../sass/desktop.sass */
+/* line 376, ../sass/desktop.sass */
 .desktop-4-houses-similar .house-offer .md-margin {
   margin-left: 15px;
 }
 
 @media (max-width: 767px) {
-  /* line 367, ../sass/desktop.sass */
+  /* line 380, ../sass/desktop.sass */
   .desktop-4-houses-similar {
     background-color: #e5e5e5;
   }
 
-  /* line 370, ../sass/desktop.sass */
+  /* line 383, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer img {
     float: left;
     width: 85px;
     margin: 0 5px 10px 0;
   }
-  /* line 374, ../sass/desktop.sass */
+  /* line 387, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer .xs-padding {
     padding: 10px 10px 0px 15px;
   }
-  /* line 376, ../sass/desktop.sass */
+  /* line 389, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer .xs-padding .size-16px {
     font-size: 14px;
   }
-  /* line 378, ../sass/desktop.sass */
+  /* line 391, ../sass/desktop.sass */
   .desktop-4-houses-similar .house-offer .md-margin {
     margin-left: 0px;
   }
 }
-/* line 385, ../sass/desktop.sass */
+/* line 398, ../sass/desktop.sass */
 .desktop-4-footer .icon {
   font-size: 1.5em;
   vertical-align: middle;
   line-height: 1.8em;
   color: #6d6d6d;
 }
-/* line 390, ../sass/desktop.sass */
+/* line 403, ../sass/desktop.sass */
 .desktop-4-footer .fontello-icon-twitter, .desktop-4-footer .fontello-icon-facebook {
   margin-right: 15px;
 }
 
 @media (max-width: 991px) {
-  /* line 396, ../sass/desktop.sass */
+  /* line 409, ../sass/desktop.sass */
   .desktop-4-footer .hidden-md p {
     margin: 10px 0px;
     font-size: 11px;
   }
-  /* line 399, ../sass/desktop.sass */
+  /* line 412, ../sass/desktop.sass */
   .desktop-4-footer h3 {
     font-size: 18px;
   }
-  /* line 401, ../sass/desktop.sass */
+  /* line 414, ../sass/desktop.sass */
   .desktop-4-footer p {
     font-size: 12px;
   }
 }
-/* line 407, ../sass/desktop.sass */
+/* line 420, ../sass/desktop.sass */
 .desktop-5-transfer .car {
   height: 120px;
   margin: 30px 0px 50px 0px;
 }
-/* line 410, ../sass/desktop.sass */
+/* line 423, ../sass/desktop.sass */
 .desktop-5-transfer .car .car-info {
   padding-top: 15px;
 }
-/* line 412, ../sass/desktop.sass */
+/* line 425, ../sass/desktop.sass */
 .desktop-5-transfer .car img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 416, ../sass/desktop.sass */
+/* line 429, ../sass/desktop.sass */
 .desktop-5-transfer .uslugi {
   margin-top: -50px;
   padding: 0px;
   margin-bottom: 30px;
 }
-/* line 420, ../sass/desktop.sass */
+/* line 433, ../sass/desktop.sass */
 .desktop-5-transfer .uslugi .transfer {
   padding: 125px 0px;
   height: 425px;
 }
-/* line 423, ../sass/desktop.sass */
+/* line 436, ../sass/desktop.sass */
 .desktop-5-transfer .uslugi .transfer p {
   font-size: 36px;
 }
-/* line 425, ../sass/desktop.sass */
+/* line 438, ../sass/desktop.sass */
 .desktop-5-transfer .uslugi .transfer a {
   padding-left: 25px;
   padding-right: 25px;
 }
 
-/* line 433, ../sass/desktop.sass */
+/* line 446, ../sass/desktop.sass */
 .desktop-5-transfer .forma-zakaza {
   font-size: 13px;
   padding: 0px 20px;
 }
-/* line 436, ../sass/desktop.sass */
+/* line 449, ../sass/desktop.sass */
 .desktop-5-transfer .forma-zakaza .form-control {
   width: 100%;
   font-size: 13px;
   padding: 0px 20px;
 }
 
-/* line 441, ../sass/desktop.sass */
+/* line 454, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -17602,11 +17623,11 @@ address {
   margin-bottom: 70px;
   padding-top: 20px;
 }
-/* line 448, ../sass/desktop.sass */
+/* line 461, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza input, .desktop-5-transfer .desktop-2-forma-zakaza select {
   margin-bottom: 15px;
 }
-/* line 450, ../sass/desktop.sass */
+/* line 463, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -17617,16 +17638,16 @@ address {
   top: 240px;
   left: 0px;
 }
-/* line 458, ../sass/desktop.sass */
+/* line 471, ../sass/desktop.sass */
 .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
   margin: 0px;
 }
 
-/* line 463, ../sass/desktop.sass */
+/* line 476, ../sass/desktop.sass */
 .desktop-5-transfer .right-column .text-form {
   margin-top: 30px;
 }
-/* line 465, ../sass/desktop.sass */
+/* line 478, ../sass/desktop.sass */
 .desktop-5-transfer .tell-friends {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -17637,7 +17658,7 @@ address {
   padding: 15px 30px;
   margin-top: 30px;
 }
-/* line 470, ../sass/desktop.sass */
+/* line 483, ../sass/desktop.sass */
 .desktop-5-transfer .icon {
   font-size: 1.5em;
   margin-left: 15px;
@@ -17645,72 +17666,72 @@ address {
 }
 
 @media (max-width: 991px) {
-  /* line 476, ../sass/desktop.sass */
+  /* line 489, ../sass/desktop.sass */
   .desktop-5-transfer .uslugi .transfer {
     padding: 95px 0px;
     height: 315px;
   }
-  /* line 479, ../sass/desktop.sass */
+  /* line 492, ../sass/desktop.sass */
   .desktop-5-transfer .uslugi .transfer p {
     font-size: 22px;
   }
 
-  /* line 482, ../sass/desktop.sass */
+  /* line 495, ../sass/desktop.sass */
   .desktop-5-transfer .tell-friends {
     padding: 15px 5px;
   }
-  /* line 484, ../sass/desktop.sass */
+  /* line 497, ../sass/desktop.sass */
   .desktop-5-transfer .icon {
     margin-left: 10px;
   }
 
-  /* line 486, ../sass/desktop.sass */
+  /* line 499, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza {
     background-color: #ededed;
     height: 300px;
   }
 
-  /* line 489, ../sass/desktop.sass */
+  /* line 502, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     top: 300px;
   }
 }
 @media (max-width: 767px) {
-  /* line 493, ../sass/desktop.sass */
+  /* line 506, ../sass/desktop.sass */
   .uslugi .transfer {
     background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover;
     padding-top: 70px;
     margin: 0px -15px;
   }
-  /* line 497, ../sass/desktop.sass */
+  /* line 510, ../sass/desktop.sass */
   .uslugi .transfer p {
     font-size: 18px;
   }
 
-  /* line 499, ../sass/desktop.sass */
+  /* line 512, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza {
     background-color: #e5e5e5;
   }
-  /* line 501, ../sass/desktop.sass */
+  /* line 514, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .form-group {
     margin-bottom: 0px;
   }
-  /* line 503, ../sass/desktop.sass */
+  /* line 516, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .control-label {
     width: 33%;
   }
-  /* line 505, ../sass/desktop.sass */
+  /* line 518, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza .form-control {
     width: 65%;
     display: inline-block;
     margin-right: 0px;
   }
-  /* line 509, ../sass/desktop.sass */
+  /* line 522, ../sass/desktop.sass */
   .desktop-5-transfer .forma-zakaza #your-phone, .desktop-5-transfer .forma-zakaza #your-name {
     width: 100%;
   }
 
-  /* line 511, ../sass/desktop.sass */
+  /* line 524, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17718,7 +17739,7 @@ address {
     margin-bottom: 70px;
     padding: 20px 0px 40px 0px;
   }
-  /* line 517, ../sass/desktop.sass */
+  /* line 530, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     background-color: #e5e5e5;
     border: none;
@@ -17726,73 +17747,73 @@ address {
     top: 0px;
     padding: 0px 15px;
   }
-  /* line 523, ../sass/desktop.sass */
+  /* line 536, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }
 }
-/* line 529, ../sass/desktop.sass */
+/* line 542, ../sass/desktop.sass */
 .desktop-6-meat .forma-zakaza {
   height: 200px;
   background-color: #ededed;
   padding: 0px 20px;
 }
-/* line 533, ../sass/desktop.sass */
+/* line 546, ../sass/desktop.sass */
 .desktop-6-meat .meat-recipe img {
   width: 100%;
 }
-/* line 535, ../sass/desktop.sass */
+/* line 548, ../sass/desktop.sass */
 .desktop-6-meat .meat {
   height: 425px;
   padding: 125px 0px;
 }
-/* line 538, ../sass/desktop.sass */
+/* line 551, ../sass/desktop.sass */
 .desktop-6-meat .meat p {
   font-size: 36px;
 }
-/* line 540, ../sass/desktop.sass */
+/* line 553, ../sass/desktop.sass */
 .desktop-6-meat .meat a {
   padding-left: 25px;
   padding-right: 25px;
 }
-/* line 543, ../sass/desktop.sass */
+/* line 556, ../sass/desktop.sass */
 .desktop-6-meat .desktop-2-forma-zakaza .btn-absolute {
   top: 180px;
 }
 
 @media (max-width: 991px) {
-  /* line 547, ../sass/desktop.sass */
+  /* line 560, ../sass/desktop.sass */
   .desktop-6-meat .uslugi .meat {
     padding: 95px 0px;
     height: 315px;
   }
-  /* line 550, ../sass/desktop.sass */
+  /* line 563, ../sass/desktop.sass */
   .desktop-6-meat .uslugi .meat p {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  /* line 554, ../sass/desktop.sass */
+  /* line 567, ../sass/desktop.sass */
   .desktop-6-meat .forma-zakaza {
     background-color: #e5e5e5;
   }
-  /* line 556, ../sass/desktop.sass */
+  /* line 569, ../sass/desktop.sass */
   .desktop-6-meat .forma-zakaza .form-control {
     width: 100%;
   }
 
-  /* line 558, ../sass/desktop.sass */
+  /* line 571, ../sass/desktop.sass */
   .uslugi .meat {
     background: url("../img/mobile-3-small.png") no-repeat 0% 0%/cover;
     padding-top: 70px;
     margin: 0px -15px;
   }
-  /* line 562, ../sass/desktop.sass */
+  /* line 575, ../sass/desktop.sass */
   .uslugi .meat p {
     font-size: 18px;
   }
 
-  /* line 564, ../sass/desktop.sass */
+  /* line 577, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza {
     border: none;
     background-color: #e5e5e5;
@@ -17800,7 +17821,7 @@ address {
     margin-bottom: 30px;
     padding: 20px 0px 0px 0px;
   }
-  /* line 570, ../sass/desktop.sass */
+  /* line 583, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute {
     background-color: #e5e5e5;
     border: none;
@@ -17808,7 +17829,7 @@ address {
     top: 0px;
     padding: 0px 15px;
   }
-  /* line 576, ../sass/desktop.sass */
+  /* line 589, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
   }
