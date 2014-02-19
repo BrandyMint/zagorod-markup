@@ -190,13 +190,13 @@
 
 //////////////desktop-4 house
 
-.desktop-4
+.desktop-4-dom
   .switch, .slider
     margin: 0px
 ////////////////end
 
 /////////////////////////desktop-4 info
-.desktop-4 .left-column
+.desktop-4-dom .left-column
   padding:
     top: 20px
     bottom: 60px
@@ -207,7 +207,7 @@
   .extra-info p
     padding-top: 10px
 
-.desktop-4 .udobstva
+.desktop-4-dom .udobstva
   padding-left: 15px
   li
     float: left
@@ -215,21 +215,31 @@
     margin-bottom: 7px
 
 @media (max-width: $screen-sm-max) 
-  .desktop-4 .left-column
+  .desktop-4-dom .left-column
     .switch
       margin: 0px -15px
     .photos
       padding-right: 15px 
-  .desktop-4 .udobstva li
+  .desktop-4-dom .udobstva li
     margin-right: 15px
     width: 200px
     font-size: 13px       
 
 @media (max-width: $screen-xs-max)
-  .desktop-4 .left-column
+  .desktop-4-dom .left-column
+    padding-bottom: 20px
+    .price
+      margin-top: 15px
+    .basa-info
+      font-size: 13px
+      margin-top: 20px  
+    .extra-info 
+      border-top: 2px solid #d9d9d9
+      .gray-color
+        font-size: 11px  
     .photos
       padding-right: 0px
-  .desktop-4 .udobstva li
+  .desktop-4-dom .udobstva li
     margin-right: 17px
     width: 120px
     font-size: 13px 
@@ -238,21 +248,22 @@
 
 
 //////////////////desktop-4 forma-zakaza
-.desktop-4 .right-column
+.desktop-4-dom .right-column
   padding-top: 60px
   .price-day
     padding-left: 30px
 
 
-.desktop-4 .forma-zakaza
+.desktop-4-dom .forma-zakaza
   font-size: 13px
+  padding: 0px 15px
   .col-md-4
     padding-right: 0px
   .form-control
     width: 100%
     font-size: 13px  
 
-.desktop-4 .desktop-2-forma-zakaza 
+.desktop-4-dom .desktop-2-forma-zakaza 
   @include border-top-radius($border-radius)
   background-color: #EDEDED
   border: $border-min solid #d9d9d9
@@ -272,7 +283,7 @@
     .btn
       margin: 0px
 
-.desktop-4 
+.desktop-4-dom 
   .tell-friends
     @include border-radius($border-radius)
     border: $border-min solid #e5e5e5
@@ -285,19 +296,20 @@
     padding: 25px 30px  
 
 @media (max-width: $screen-sm-max)  
-  .desktop-4 .forma-zakaza
+  .desktop-4-dom .forma-zakaza
     position: relative
     background-color: #e5e5e5
+    padding: 0px
     .col-md-4
       padding-right: 15px
     .control-label
-      width: 33%
+      width: 20%
     .form-control  
-      width:  65% 
+      width:  78% 
       margin-right: 0px
     #your-phone, #your-name
       width: 100% 
-  .desktop-4 .desktop-2-forma-zakaza 
+  .desktop-4-dom .desktop-2-forma-zakaza 
     margin-top: 20px  
     margin-bottom: 80px   
     padding: 20px 0px 240px 0px
@@ -312,21 +324,26 @@
         width: 100%               
 
 @media (max-width: $screen-xs-max)
-  .desktop-4 .forma-zakaza
+  .desktop-4-dom .right-column
+    padding-top: 0px
+  .desktop-4-dom .forma-zakaza
     .form-group
       margin-bottom: 0px
     .form-control  
       display: inline-block     
-  .desktop-4 .desktop-2-forma-zakaza 
+  .desktop-4-dom .desktop-2-forma-zakaza 
     border: none
     background-color: #E5E5E5
 
 @media (max-width: $screen-xs-max)           
-  .desktop-4 .desktop-2-forma-zakaza   
+  .desktop-4-dom .desktop-2-forma-zakaza 
+    @include border-top-radius(0px)  
     padding: 20px 0px 115px 0px
     .btn-absolute
+      @include border-bottom-radius(0px) 
       padding: 15px 20px 
       border-bottom: $border-min solid #e5e5e5
+      border-top: none
       .btn
         width: 100%   
 ////////////////////////////////////////////////end      
@@ -356,6 +373,8 @@
       margin: 0 5px 10px 0
     .xs-padding
       padding: 10px 10px 0px 15px
+      .size-16px
+        font-size: 14px
     .md-margin
       margin-left: 0px    
 
@@ -371,7 +390,15 @@
   .fontello-icon-twitter, .fontello-icon-facebook
     margin-right: 15px   
 
-
+@media (max-width: $screen-xs-max)
+  .desktop-4-footer
+    .hidden-md
+      p
+        margin: 10px 0px
+    h3
+      font-size: 18px
+    p
+      font-size: 12px
 ///////////////////////////end
 
 
