@@ -19,18 +19,18 @@
   margin-top: -55px
   .forma-zakaza
     background: none
-    width: 735px
+    width: 710px
     margin-top: 50px
     margin-bottom: 60px
     .btn
       margin-top: 23px
-      padding: 6px 30px
+      padding: 6px 50px
     label
       color: $color-white
   .form-control
     margin-right: 10px 
   input[type="text"]  
-    width: 175px
+    width: 145px
   .control-label
     margin-bottom: 5px  
 
@@ -46,7 +46,7 @@
     background: url("../img/mobile-1.png") no-repeat 0% 0%/cover
     margin-top: 0px
     height: 100px
-    padding: 25px 0px 0px 0px
+    padding: 15px 0px 0px 0px
     h1
       font-size: 20px 
 
@@ -80,8 +80,14 @@
       font-size: 14px
 
 @media (max-width: $screen-xs-max)
+  .uslugi
+    padding:
+      right: 10px
+      left: 10px
   .transfer, .meat, .celebrity
-    margin-bottom: 10px  
+    margin-bottom: 10px 
+  .desktop1-uslugi
+    padding: 0px 15px     
 
 
 ////////////end
@@ -514,10 +520,11 @@
     top: 300px    
 
 @media (max-width: $screen-xs-max)
-  .uslugi .transfer
+  .desktop-5-transfer .uslugi .transfer
     background: url("../img/mobile-2-small.png") no-repeat 0% 0%/cover
     padding-top: 70px
     margin: 0px -15px
+    height: $height-xs
     p
       font-size: 18px 
   .desktop-5-transfer .forma-zakaza
@@ -579,10 +586,11 @@
     background-color: #e5e5e5
     .form-control
       width: 100%
-  .uslugi .meat
+  .desktop-6-meat .uslugi .meat
     background: url("../img/mobile-3-small.png") no-repeat 0% 0%/cover
     padding-top: 70px
     margin: 0px -15px
+    height: $height-xs
     p
       font-size: 18px      
   .desktop-5-transfer .desktop-2-forma-zakaza 
