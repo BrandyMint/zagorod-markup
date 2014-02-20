@@ -88,7 +88,7 @@
 
 //////////// desktop1 houses
 .desktop1-houses
-  padding: 20px 0px
+  padding: 20px 0px 50px 0px
   background-color: #F2F2F2
   img
     margin-bottom: 10px  
@@ -98,7 +98,9 @@
     margin-top: 20px
     margin-bottom: 0px 
   .more
-    width: 250px   
+    width: 290px
+    padding-bottom: 14px
+    padding-top: 14px   
 
 @media (max-width: $screen-sm-max)
   .desktop1-houses
@@ -108,7 +110,7 @@
     .col-sm-4
       padding: 0px 14px      
     .house-btn .btn
-      margin-top: 10px  
+      margin-top: 0px  
 
 //////////////////////////////////////end
 
@@ -126,7 +128,14 @@
       width: 70px
     .btn
       margin-top: 23px
-      padding: 6px 30px  
+      padding: 6px 30px 
+      border: $border-min solid #b2b2b2 
+
+////////////desktop2-houses
+.desktop2-houses
+  border-top: 2px solid #D5D5D5
+  padding-top: 0px
+//////////////end      
 
 @media (max-width: $screen-sm-max)
   .desktop-2-forma-zakaza .form-inline
@@ -134,19 +143,21 @@
       padding: 6px 25px        
 
 @media (max-width: $screen-xs-max)
+  .desktop2-houses
+    border-top: $border-min solid #D5D5D5
+    padding-top: 10px
   .desktop-2-forma-zakaza
     background-color: $color-white
     padding: 10px 0px
   .desktop1-houses
     background-color: $color-forma
-    padding: 0px    
+    padding-left: 10px
+    padding-right: 10px
+    padding-bottom: 40px    
 
 //////////////end
 
-////////////desktop2-houses
-.desktop1-houses
-  border-top: $border-min solid #D5D5D5
-//////////////end
+
 
 ///////////////desktop-3 filter
 .desktop-3-forma
