@@ -16174,65 +16174,75 @@ a, a:hover, a:visited {
 }
 
 /* line 19, ../sass/_utilities.sass */
+.size-24px {
+  font-size: 24px;
+}
+
+/* line 22, ../sass/_utilities.sass */
 .size-10px {
   font-size: 10px;
 }
 
-/* line 22, ../sass/_utilities.sass */
+/* line 25, ../sass/_utilities.sass */
 .font-size-0-8em {
   font-size: 0.8em;
 }
 
-/* line 25, ../sass/_utilities.sass */
+/* line 28, ../sass/_utilities.sass */
 .font-size-0-9em {
   font-size: 0.9em;
 }
 
-/* line 28, ../sass/_utilities.sass */
+/* line 31, ../sass/_utilities.sass */
 .font-size-1-5em {
   font-size: 1.5em;
 }
 
-/* line 31, ../sass/_utilities.sass */
+/* line 34, ../sass/_utilities.sass */
 .font-size-1-2em {
   font-size: 1.2em;
 }
 
-/* line 34, ../sass/_utilities.sass */
+/* line 37, ../sass/_utilities.sass */
 .font-size-1-1em {
   font-size: 1.1em;
 }
 
-/* line 37, ../sass/_utilities.sass */
+/* line 40, ../sass/_utilities.sass */
 .gray-color {
   color: #939598;
 }
 
-/* line 40, ../sass/_utilities.sass */
+/* line 43, ../sass/_utilities.sass */
 .light-green {
   color: #b3e0af;
 }
 
-/* line 43, ../sass/_utilities.sass */
+/* line 46, ../sass/_utilities.sass */
+.green {
+  color: #50b848;
+}
+
+/* line 49, ../sass/_utilities.sass */
 .line-height-1-43 {
   line-height: 1.43em;
 }
 
-/* line 46, ../sass/_utilities.sass */
+/* line 52, ../sass/_utilities.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 49, ../sass/_utilities.sass */
+/* line 55, ../sass/_utilities.sass */
 .btn-success {
   background-color: #50b848;
 }
 
-/* line 52, ../sass/_utilities.sass */
+/* line 58, ../sass/_utilities.sass */
 .forma-relative {
   position: relative;
 }
-/* line 54, ../sass/_utilities.sass */
+/* line 60, ../sass/_utilities.sass */
 .forma-relative .btn {
   position: absolute;
   top: 35px;

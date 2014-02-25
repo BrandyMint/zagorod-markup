@@ -16214,25 +16214,30 @@ a, a:hover, a:visited {
 }
 
 /* line 43, ../sass/_utilities.sass */
+.green {
+  color: #50b848;
+}
+
+/* line 46, ../sass/_utilities.sass */
 .line-height-1-43 {
   line-height: 1.43em;
 }
 
-/* line 46, ../sass/_utilities.sass */
+/* line 49, ../sass/_utilities.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 49, ../sass/_utilities.sass */
+/* line 52, ../sass/_utilities.sass */
 .btn-success {
   background-color: #50b848;
 }
 
-/* line 52, ../sass/_utilities.sass */
+/* line 55, ../sass/_utilities.sass */
 .forma-relative {
   position: relative;
 }
-/* line 54, ../sass/_utilities.sass */
+/* line 57, ../sass/_utilities.sass */
 .forma-relative .btn {
   position: absolute;
   top: 35px;
@@ -17857,5 +17862,36 @@ address {
   /* line 608, ../sass/desktop.sass */
   .desktop-5-transfer .desktop-2-forma-zakaza .btn-absolute .btn {
     margin: 0px;
+  }
+}
+/* line 612, ../sass/desktop.sass */
+.order-received {
+  background-color: #e5e5e5;
+}
+/* line 614, ../sass/desktop.sass */
+.order-received .order {
+  margin-top: -50px;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 90px 30px 55px 30px;
+}
+/* line 619, ../sass/desktop.sass */
+.order-received .order p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 622, ../sass/desktop.sass */
+.order-received .order .base {
+  margin-bottom: -5px;
+}
+
+@media (max-width: 767px) {
+  /* line 626, ../sass/desktop.sass */
+  .order-received .order {
+    padding: 65px 15px 30px 15px;
+  }
+  /* line 628, ../sass/desktop.sass */
+  .order-received .order .size-20px, .order-received .order .size-16px {
+    font-size: 14px;
   }
 }
